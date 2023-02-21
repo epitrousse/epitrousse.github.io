@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.89fa5c72.css",
-    "main.js": "/static/js/main.59132717.js",
+    "main.css": "/static/css/main.d6899a8d.css",
+    "main.js": "/static/js/main.a4776b14.js",
     "static/media/home-2.jpg": "/static/media/home-2.7925c5f350d2047b4727.jpg",
-    "static/media/topic-2.jpg": "/static/media/topic-2.d938a9847a81e9eb8a74.jpg",
     "static/media/topic-3.jpg": "/static/media/topic-3.1456ddcbf094dc8ded13.jpg",
     "static/media/home-3.jpg": "/static/media/home-3.2400a46f71c796e00b7a.jpg",
+    "static/media/topic-2.jpg": "/static/media/topic-2.9062f7d342ded3b006c5.jpg",
     "static/media/home-1.jpg": "/static/media/home-1.c011434d4226250a6718.jpg",
     "static/media/topic-6.jpg": "/static/media/topic-6.6ba23a768d58827d022d.jpg",
     "static/media/topic-5.jpg": "/static/media/topic-5.054e41dbb26a959be851.jpg",
     "static/media/topic-4.jpg": "/static/media/topic-4.5dd0fc3e5885a3f9bb46.jpg",
     "static/media/topic-1.jpg": "/static/media/topic-1.9264ae873fbf995b1fc9.jpg",
     "index.html": "/index.html",
-    "main.89fa5c72.css.map": "/static/css/main.89fa5c72.css.map",
-    "main.59132717.js.map": "/static/js/main.59132717.js.map"
+    "main.d6899a8d.css.map": "/static/css/main.d6899a8d.css.map",
+    "main.a4776b14.js.map": "/static/js/main.a4776b14.js.map"
   },
   "entrypoints": [
-    "static/css/main.89fa5c72.css",
-    "static/js/main.59132717.js"
+    "static/css/main.d6899a8d.css",
+    "static/js/main.a4776b14.js"
   ]
 }
