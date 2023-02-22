@@ -31,6 +31,12 @@ body {
   cursor: pointer;
 }
 
+.content-container {
+  border-radius: 8px;
+  margin-top: 20px;
+  padding: 1rem;
+}
+
 .ant-collapse-header {
   align-items: center !important;
 

@@ -18,7 +18,10 @@ export default function TitleSectionKit({
         </Typography.Title>
       </Col>
       <Col xs={24} md={12} className="flex-center">
-        <Image preview={false} src={imgTopic} height="350px"></Image>
+        <Image
+          preview={false}
+          src={imgTopic}
+          style={{ maxHeight: '350px' }}></Image>
       </Col>
     </Row>
   );
