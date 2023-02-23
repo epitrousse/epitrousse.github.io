@@ -1,7 +1,9 @@
 import { Breadcrumb, Typography } from 'antd';
+import { Link } from 'react-router-dom';
 import topic3 from '../../assets/img/topic-3.jpg';
 import Bullets from '../../components/bullets/bullets';
 import TitleSectionKit from '../../components/title-section-kit/title-section-kit';
+import { Routes } from '../../models/enums/routes.enum';
 import { fr } from './i18n/fr';
 
 interface OrderedBullets {
@@ -26,8 +28,12 @@ export default function Treatments() {
     <div className="max-viewport-width margin-page">
       <TitleSectionKit imgTopic={topic3} title={fr.title}></TitleSectionKit>
       <Breadcrumb separator=">">
-        <Breadcrumb.Item>Accueil</Breadcrumb.Item>
-        <Breadcrumb.Item>Trousse</Breadcrumb.Item>
+        <Breadcrumb.Item>
+          <Link to={Routes.Home}>Accueil</Link>
+        </Breadcrumb.Item>
+        <Breadcrumb.Item>
+          <Link to={Routes.Kit}>Trousse</Link>
+        </Breadcrumb.Item>
         <Breadcrumb.Item>{fr.title}</Breadcrumb.Item>
       </Breadcrumb>
       <div className="white-background content-container">

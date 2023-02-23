@@ -1,4 +1,5 @@
 export const fr = {
+  title: `En savoir plus sur l'épilepsie`,
   category1: {
     title: `Comment fonctionne mon cerveau?`,
     p1: `Le cerveau est un organe très complexe. Il peut être comparé à un grand circuit électrique qui envoie des signaux dans plusieurs parties du corps. Par exemple, lorsque nous touchons à un chaudron trop chaud, notre cerveau commande à notre main de se retirer immédiatement pour éviter les brûlures! Les différentes parties du cerveau sont associées à plusieurs fonctions précises du corps comme le montre le schéma ci-dessous : `

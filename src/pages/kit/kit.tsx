@@ -1,5 +1,5 @@
 import { Breadcrumb, Col, Row, Typography } from 'antd';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import '../../app.scss';
 import { Routes } from '../../models/enums/routes.enum';
 import './kit.scss';
@@ -23,7 +23,9 @@ export default function Kit() {
     <div className="max-viewport-width margin-page">
       <Typography.Title level={2}>La trousse</Typography.Title>
       <Breadcrumb separator=">">
-        <Breadcrumb.Item>Accueil</Breadcrumb.Item>
+        <Breadcrumb.Item>
+          <Link to={Routes.Home}>Accueil</Link>
+        </Breadcrumb.Item>
         <Breadcrumb.Item>Trousse</Breadcrumb.Item>
       </Breadcrumb>
       <div className="white-container">

@@ -1,4 +1,5 @@
 export const fr = {
+  title: `Outils divers`,
   tools: {
     tool1: `Préparation aux rendez-vous médicaux`,
     tool2: `Journal des crises`,

@@ -1,8 +1,10 @@
 import { Breadcrumb, Col, Row } from 'antd';
+import { Link } from 'react-router-dom';
 import topic5 from '../../assets/img/topic-5.jpg';
 import Bullets from '../../components/bullets/bullets';
 import FlippableCard from '../../components/flippable-card/flippable-card';
 import TitleSectionKit from '../../components/title-section-kit/title-section-kit';
+import { Routes } from '../../models/enums/routes.enum';
 import { fr } from './i18n/fr';
 import './myths-and-facts.scss';
 
@@ -24,13 +26,15 @@ export default function MythsAndFacts() {
 
   return (
     <div className="max-viewport-width margin-page">
-      <TitleSectionKit
-        imgTopic={topic5}
-        title={'Mythes et réalités'}></TitleSectionKit>
+      <TitleSectionKit imgTopic={topic5} title={fr.title}></TitleSectionKit>
       <Breadcrumb separator=">">
-        <Breadcrumb.Item>Accueil</Breadcrumb.Item>
-        <Breadcrumb.Item>Trousse</Breadcrumb.Item>
-        <Breadcrumb.Item>{'Mythes et réalités'}</Breadcrumb.Item>
+        <Breadcrumb.Item>
+          <Link to={Routes.Home}>Accueil</Link>
+        </Breadcrumb.Item>
+        <Breadcrumb.Item>
+          <Link to={Routes.Kit}>Trousse</Link>
+        </Breadcrumb.Item>
+        <Breadcrumb.Item>{fr.title}</Breadcrumb.Item>
       </Breadcrumb>
       <div className="white-background content-container">
         <Row gutter={[16, 16]} className="cards">

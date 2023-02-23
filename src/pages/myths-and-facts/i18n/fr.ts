@@ -1,4 +1,5 @@
 export const fr = {
+  title: `Mythes et réalités`,
   facts: {
     fact1: {
       question: `Est-ce que l’épilepsie survient seulement chez les enfants ?`,

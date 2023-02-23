@@ -1,4 +1,5 @@
 export const fr = {
+  title: `Que faire si je suis témoin d'une crise?`,
   p1: `Bien qu’une crise puisse être quelque chose d’impressionnant, il faut garder à l’esprit que la plupart d’entre elles se terminent d’elles-mêmes et ne sont pas dangereuses – il se peut quand même que la personne atteinte d’une crise ait besoin de temps pour recouvrer ses esprits et ait besoin de repos.`,
   p2: `En tant que témoin d’une crise, il y a certaines choses à faire pour porter assistance à la personne qui en est atteinte.`,
   p3: `Les gestes à poser pour porter secours à une personne faisant une crise devant vous se ressemblent généralement mais peuvent différer en fonction du type de crise dont la personne est atteinte. De manière générale, assister une personne atteinte d’une crise consiste à s’assurer de sa sécurité physique le temps de la crise et rester avec elle une fois la crise passée, tout en monitorant la durée de la crise. Les recommandations plus précises pour chaque type de crise se retrouvent sous chacune des icones leur correspondant.`,
