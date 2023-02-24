@@ -8,7 +8,7 @@ import { fr } from './i18n/fr';
 
 export default function AboutEpilepsy() {
   return (
-    <div className="max-viewport-width margin-page">
+    <div className="max-viewport-width margin-page-view">
       <TitleSectionKit imgTopic={topic1} title={fr.title}></TitleSectionKit>
       <Breadcrumb separator=">">
         <Breadcrumb.Item>

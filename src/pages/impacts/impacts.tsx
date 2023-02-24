@@ -22,7 +22,7 @@ export default function Impacts() {
   ];
 
   return (
-    <div className="max-viewport-width margin-page">
+    <div className="max-viewport-width margin-page-view">
       <TitleSectionKit imgTopic={topic4} title={fr.title}></TitleSectionKit>
       <Breadcrumb separator=">">
         <Breadcrumb.Item>

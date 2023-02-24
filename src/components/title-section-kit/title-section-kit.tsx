@@ -21,7 +21,7 @@ export default function TitleSectionKit({
         <Image
           preview={false}
           src={imgTopic}
-          style={{ maxHeight: '350px' }}></Image>
+          style={{ maxHeight: '200px' }}></Image>
       </Col>
     </Row>
   );

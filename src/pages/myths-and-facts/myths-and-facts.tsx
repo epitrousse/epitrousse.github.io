@@ -9,8 +9,8 @@ import { fr } from './i18n/fr';
 import './myths-and-facts.scss';
 
 export default function MythsAndFacts() {
-  const displayCards = (question, answer, span = 8) => (
-    <Col className="myths-and-fact-card-col" span={span}>
+  const displayCards = (question, answer, lg = 8) => (
+    <Col className="myths-and-fact-card-col" xs={24} md={12} lg={lg}>
       <FlippableCard
         frontContent={question}
         backContent={answer}></FlippableCard>
@@ -25,7 +25,7 @@ export default function MythsAndFacts() {
   );
 
   return (
-    <div className="max-viewport-width margin-page">
+    <div className="max-viewport-width margin-page-view">
       <TitleSectionKit imgTopic={topic5} title={fr.title}></TitleSectionKit>
       <Breadcrumb separator=">">
         <Breadcrumb.Item>

@@ -20,7 +20,7 @@ export default function Kit() {
   );
 
   return (
-    <div className="max-viewport-width margin-page">
+    <div className="max-viewport-width margin-page-view">
       <Typography.Title level={2}>La trousse</Typography.Title>
       <Breadcrumb separator=">">
         <Breadcrumb.Item>
@@ -46,16 +46,12 @@ export default function Kit() {
             Routes.BeWitness
           )}
           {displayTile(
-            'Les traitements de l’épilepsie?',
+            'Les traitements de l’épilepsie',
             'topic-3',
             Routes.Treatments
           )}
-          {displayTile(
-            'Quels sont les impacts de l’épilepsie',
-            'topic-4',
-            Routes.Impacts
-          )}
-          {displayTile('Mythes et réalités', 'topic-5', Routes.MythsAndFacts)}
+          {displayTile('Les impacts de l’épilepsie', 'topic-4', Routes.Impacts)}
+          {displayTile('Questions fréquentes', 'topic-5', Routes.MythsAndFacts)}
           {displayTile('Outils divers', 'topic-6', Routes.Tools)}
         </Row>
       </div>

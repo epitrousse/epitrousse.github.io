@@ -19,7 +19,7 @@ export default function Header() {
     width < 576 ? <HeaderMobileMenu /> : <HeaderDesktopMenu />;
 
   return (
-    <Layout.Header className="header padding-page">
+    <Layout.Header className="header">
       <div className="header-content max-viewport-width">
         <Space onClick={navigateToHome} align="center" className="pointer">
           <BranchesOutlined className="header-logo" />

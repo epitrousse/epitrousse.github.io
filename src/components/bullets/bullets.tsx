@@ -1,4 +1,5 @@
 import { BulletWithSubBullets } from '../../models/bulletWithSubBullets';
+import './bullets.scss';
 
 interface BulletsProps {
   bullets: (string | BulletWithSubBullets)[];
@@ -20,5 +21,9 @@ export default function Bullets({ bullets }: BulletsProps) {
     });
   };
 
-  return <ul>{displayBullets(bullets)}</ul>;
+  return (
+    <div className="bullets">
+      <ul>{displayBullets(bullets)}</ul>
+    </div>
+  );
 }

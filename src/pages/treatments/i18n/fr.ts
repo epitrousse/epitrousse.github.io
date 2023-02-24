@@ -1,5 +1,5 @@
 export const fr = {
-  title: `Quels sont les traitements de l’épilepsie?`,
+  title: `Les traitements de l’épilepsie?`,
   s1: {
     title: `Quel est le traitement médicamenteux de l’épilepsie?`,
     ss1: {
