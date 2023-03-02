@@ -2,6 +2,8 @@ import { Breadcrumb, Col, Row, Typography } from 'antd';
 import { Link, useNavigate } from 'react-router-dom';
 import '../../app.scss';
 import { Routes } from '../../models/enums/routes.enum';
+import { fr as commonFr } from './../../common/i18n/fr';
+import { fr } from './i18n/fr';
 import './kit.scss';
 
 export default function Kit() {
@@ -21,38 +23,26 @@ export default function Kit() {
 
   return (
     <div className="max-viewport-width margin-page-view">
-      <Typography.Title level={2}>La trousse</Typography.Title>
+      <Typography.Title level={2}>{fr.title}</Typography.Title>
       <Breadcrumb separator=">">
         <Breadcrumb.Item>
-          <Link to={Routes.Home}>Accueil</Link>
+          <Link to={Routes.Home}>{commonFr.home}</Link>
         </Breadcrumb.Item>
-        <Breadcrumb.Item>Trousse</Breadcrumb.Item>
+        <Breadcrumb.Item>{commonFr.kit}</Breadcrumb.Item>
       </Breadcrumb>
       <div className="white-container">
         <Typography.Title
           level={3}
           style={{ marginTop: 0, marginBottom: '2rem' }}>
-          Quelle section voulez-vous consulter?
+          {fr.whatToConsult}
         </Typography.Title>
         <Row gutter={[20, 16]}>
-          {displayTile(
-            "En savoir plus sur l'épilepsie",
-            'topic-1',
-            Routes.AboutEpilepsy
-          )}
-          {displayTile(
-            "Que faire si je suis témoin d'une crise?",
-            'topic-2',
-            Routes.BeWitness
-          )}
-          {displayTile(
-            'Les traitements de l’épilepsie',
-            'topic-3',
-            Routes.Treatments
-          )}
-          {displayTile('Les impacts de l’épilepsie', 'topic-4', Routes.Impacts)}
-          {displayTile('Questions fréquentes', 'topic-5', Routes.MythsAndFacts)}
-          {displayTile('Outils divers', 'topic-6', Routes.Tools)}
+          {displayTile(fr.aboutEpilepsy, 'topic-1', Routes.AboutEpilepsy)}
+          {displayTile(fr.beWitness, 'topic-2', Routes.BeWitness)}
+          {displayTile(fr.treatments, 'topic-3', Routes.Treatments)}
+          {displayTile(fr.impacts, 'topic-4', Routes.Impacts)}
+          {displayTile(fr.mythsAndFacts, 'topic-5', Routes.MythsAndFacts)}
+          {displayTile(fr.tools, 'topic-6', Routes.Tools)}
         </Row>
       </div>
     </div>

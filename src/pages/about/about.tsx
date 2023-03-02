@@ -1,3 +1,5 @@
+import { fr } from './i18n/fr';
+
 export default function About() {
-  return <div>About</div>;
+  return <div>{fr.title}</div>;
 }

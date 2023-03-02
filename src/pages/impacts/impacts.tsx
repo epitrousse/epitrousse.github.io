@@ -5,6 +5,7 @@ import AdultsImpacts from '../../components/adults-impacts/adults-impacts';
 import ChildrenImpacts from '../../components/children-impacts/children-impacts';
 import TitleSectionKit from '../../components/title-section-kit/title-section-kit';
 import { Routes } from '../../models/enums/routes.enum';
+import { fr as commonFr } from './../../common/i18n/fr';
 import { fr } from './i18n/fr';
 
 export default function Impacts() {
@@ -26,10 +27,10 @@ export default function Impacts() {
       <TitleSectionKit imgTopic={topic4} title={fr.title}></TitleSectionKit>
       <Breadcrumb separator=">">
         <Breadcrumb.Item>
-          <Link to={Routes.Home}>Accueil</Link>
+          <Link to={Routes.Home}>{commonFr.home}</Link>
         </Breadcrumb.Item>
         <Breadcrumb.Item>
-          <Link to={Routes.Kit}>Trousse</Link>
+          <Link to={Routes.Kit}>{commonFr.kit}</Link>
         </Breadcrumb.Item>
         <Breadcrumb.Item>{fr.title}</Breadcrumb.Item>
       </Breadcrumb>

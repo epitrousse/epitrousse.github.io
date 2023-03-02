@@ -5,6 +5,7 @@ import Bullets from '../../components/bullets/bullets';
 import FlippableCard from '../../components/flippable-card/flippable-card';
 import TitleSectionKit from '../../components/title-section-kit/title-section-kit';
 import { Routes } from '../../models/enums/routes.enum';
+import { fr as commonFr } from './../../common/i18n/fr';
 import { fr } from './i18n/fr';
 import './myths-and-facts.scss';
 
@@ -29,10 +30,10 @@ export default function MythsAndFacts() {
       <TitleSectionKit imgTopic={topic5} title={fr.title}></TitleSectionKit>
       <Breadcrumb separator=">">
         <Breadcrumb.Item>
-          <Link to={Routes.Home}>Accueil</Link>
+          <Link to={Routes.Home}>{commonFr.home}</Link>
         </Breadcrumb.Item>
         <Breadcrumb.Item>
-          <Link to={Routes.Kit}>Trousse</Link>
+          <Link to={Routes.Kit}>{commonFr.kit}</Link>
         </Breadcrumb.Item>
         <Breadcrumb.Item>{fr.title}</Breadcrumb.Item>
       </Breadcrumb>

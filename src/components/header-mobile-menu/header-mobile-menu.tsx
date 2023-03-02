@@ -3,7 +3,9 @@ import { Button, Modal, Space, Typography } from 'antd';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Routes } from '../../models/enums/routes.enum';
+import { fr as commonFr } from './../../common/i18n/fr';
 import './header-mobile-menu.scss';
+import { fr } from './i18n/fr';
 
 export default function HeaderMobileMenu() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -37,12 +39,12 @@ export default function HeaderMobileMenu() {
       <Modal open={isModalOpen} onCancel={handleCancel} footer={null} centered>
         <div className="mobile-menu-modal">
           <Typography.Paragraph style={{ fontWeight: 'bold' }}>
-            Que souhaitez-vous consulter?
+            {fr.whatToConsult}
           </Typography.Paragraph>
           <Space style={{ width: '80%' }} size="middle" direction="vertical">
-            {displayNavigationButton('Trousse', Routes.Kit)}
-            {displayNavigationButton('À propos', Routes.About)}
-            {displayNavigationButton('Ressources', Routes.Resources)}
+            {displayNavigationButton(commonFr.kit, Routes.Kit)}
+            {displayNavigationButton(commonFr.about, Routes.About)}
+            {displayNavigationButton(commonFr.resources, Routes.Resources)}
           </Space>
         </div>
       </Modal>

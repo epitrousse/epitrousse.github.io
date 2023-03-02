@@ -6,6 +6,7 @@ import { Routes } from '../../models/enums/routes.enum';
 import HeaderDesktopMenu from '../header-desktop-menu/header-desktop-menu';
 import HeaderMobileMenu from '../header-mobile-menu/header-mobile-menu';
 import './header.scss';
+import { fr } from './i18n/fr';
 
 export default function Header() {
   const { width } = useWindowDimensions();
@@ -24,7 +25,7 @@ export default function Header() {
         <Space onClick={navigateToHome} align="center" className="pointer">
           <BranchesOutlined className="header-logo" />
           <Typography.Title className="header-app-name">
-            Epitrousse
+            {fr.siteName}
           </Typography.Title>
         </Space>
         {displayMenu()}

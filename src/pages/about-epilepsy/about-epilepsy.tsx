@@ -1,9 +1,11 @@
-import { Breadcrumb, Collapse, Typography } from 'antd';
+import { Breadcrumb, Col, Collapse, Row, Typography } from 'antd';
 import { Link } from 'react-router-dom';
 import topic1 from '../../assets/img/topic-1.jpg';
 import Bullets from '../../components/bullets/bullets';
+import GeneralizedCrysisTypeModal from '../../components/generalized-crysis-type-modal/generalized-crysis-type-modal';
 import TitleSectionKit from '../../components/title-section-kit/title-section-kit';
 import { Routes } from '../../models/enums/routes.enum';
+import { fr as commonFr } from './../../common/i18n/fr';
 import { fr } from './i18n/fr';
 
 export default function AboutEpilepsy() {
@@ -12,10 +14,10 @@ export default function AboutEpilepsy() {
       <TitleSectionKit imgTopic={topic1} title={fr.title}></TitleSectionKit>
       <Breadcrumb separator=">">
         <Breadcrumb.Item>
-          <Link to={Routes.Home}>Accueil</Link>
+          <Link to={Routes.Home}>{commonFr.home}</Link>
         </Breadcrumb.Item>
         <Breadcrumb.Item>
-          <Link to={Routes.Kit}>Trousse</Link>
+          <Link to={Routes.Kit}>{commonFr.kit}</Link>
         </Breadcrumb.Item>
         <Breadcrumb.Item>{fr.title}</Breadcrumb.Item>
       </Breadcrumb>
@@ -55,22 +57,37 @@ export default function AboutEpilepsy() {
               {fr.category4.ss2.title}
             </Typography.Title>
             <p>{fr.category4.ss2.p1}</p>
-            <Typography.Title level={5}>
-              {fr.category4.ss2.sss1.title}
-            </Typography.Title>
-            <Bullets bullets={fr.category4.ss2.sss1.bullets} />
-            <Typography.Title level={5}>
-              {fr.category4.ss2.sss2.title}
-            </Typography.Title>
-            <Bullets bullets={fr.category4.ss2.sss2.bullets} />
-            <Typography.Title level={5}>
-              {fr.category4.ss2.sss3.title}
-            </Typography.Title>
-            <Bullets bullets={fr.category4.ss2.sss3.bullets} />
-            <Typography.Title level={5}>
-              {fr.category4.ss2.sss4.title}
-            </Typography.Title>
-            <Bullets bullets={fr.category4.ss2.sss4.bullets} />
+
+            <Row style={{ width: 'fit-content' }} gutter={[16, 16]}>
+              <Col xs={24} sm={12}>
+                <GeneralizedCrysisTypeModal
+                  title={fr.category4.ss2.sss1.title}
+                  bullets={fr.category4.ss2.sss1.bullets}
+                  type={fr.category4.ss2.sss1.type}
+                />
+              </Col>
+              <Col xs={24} sm={12}>
+                <GeneralizedCrysisTypeModal
+                  title={fr.category4.ss2.sss2.title}
+                  bullets={fr.category4.ss2.sss2.bullets}
+                  type={fr.category4.ss2.sss2.type}
+                />
+              </Col>
+              <Col xs={24} sm={12}>
+                <GeneralizedCrysisTypeModal
+                  title={fr.category4.ss2.sss3.title}
+                  bullets={fr.category4.ss2.sss3.bullets}
+                  type={fr.category4.ss2.sss3.type}
+                />
+              </Col>
+              <Col xs={24} sm={12}>
+                <GeneralizedCrysisTypeModal
+                  title={fr.category4.ss2.sss4.title}
+                  bullets={fr.category4.ss2.sss4.bullets}
+                  type={fr.category4.ss2.sss4.type}
+                />
+              </Col>
+            </Row>
           </Collapse.Panel>
         </Collapse>
       </div>
