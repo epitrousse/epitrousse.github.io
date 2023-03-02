@@ -23,7 +23,7 @@ export default function Kit() {
 
   return (
     <div className="max-viewport-width margin-page-view">
-      <Typography.Title level={2}>{fr.title}</Typography.Title>
+      <Typography.Title level={1}>{fr.title}</Typography.Title>
       <Breadcrumb separator=">">
         <Breadcrumb.Item>
           <Link to={Routes.Home}>{commonFr.home}</Link>
@@ -32,7 +32,7 @@ export default function Kit() {
       </Breadcrumb>
       <div className="white-container">
         <Typography.Title
-          level={3}
+          level={2}
           style={{ marginTop: 0, marginBottom: '2rem' }}>
           {fr.whatToConsult}
         </Typography.Title>

@@ -24,18 +24,18 @@ export default function BeWitness() {
         <p>{fr.p1}</p>
         <p>{fr.p2}</p>
         <p>{fr.p3}</p>
-        <Typography.Title level={3}>{fr.ss1.title}</Typography.Title>
+        <Typography.Title level={2}>{fr.ss1.title}</Typography.Title>
         <Bullets bullets={fr.ss1.bullets} />
-        <Typography.Title level={3}>{fr.ss2.title}</Typography.Title>
-        <Typography.Title level={4}>{fr.ss2.sss1.title}</Typography.Title>
+        <Typography.Title level={2}>{fr.ss2.title}</Typography.Title>
+        <Typography.Title level={3}>{fr.ss2.sss1.title}</Typography.Title>
         <Bullets bullets={fr.ss2.sss1.bullets} />
-        <Typography.Title level={4}>{fr.ss2.sss2.title}</Typography.Title>
+        <Typography.Title level={3}>{fr.ss2.sss2.title}</Typography.Title>
         <Bullets bullets={fr.ss2.sss2.bullets} />
-        <Typography.Title level={4}>{fr.ss2.sss3.title}</Typography.Title>
+        <Typography.Title level={3}>{fr.ss2.sss3.title}</Typography.Title>
         <Bullets bullets={fr.ss2.sss3.bullets} />
-        <Typography.Title level={4}>{fr.ss2.sss4.title}</Typography.Title>
+        <Typography.Title level={3}>{fr.ss2.sss4.title}</Typography.Title>
         <Bullets bullets={fr.ss2.sss4.bullets} />
-        <Typography.Title level={3}>{fr.ss3.title}</Typography.Title>
+        <Typography.Title level={2}>{fr.ss3.title}</Typography.Title>
         <Bullets bullets={fr.ss3.bullets} />
       </div>
     </div>

@@ -1,5 +1,5 @@
 import { BranchesOutlined } from '@ant-design/icons';
-import { Layout, Space, Typography } from 'antd';
+import { Layout, Space } from 'antd';
 import { useNavigate } from 'react-router-dom';
 import useWindowDimensions from '../../hooks/use-window-dimensions.hook';
 import { Routes } from '../../models/enums/routes.enum';
@@ -24,9 +24,7 @@ export default function Header() {
       <div className="header-content max-viewport-width">
         <Space onClick={navigateToHome} align="center" className="pointer">
           <BranchesOutlined className="header-logo" />
-          <Typography.Title className="header-app-name">
-            {fr.siteName}
-          </Typography.Title>
+          <span className="header-app-name">{fr.siteName}</span>
         </Space>
         {displayMenu()}
       </div>

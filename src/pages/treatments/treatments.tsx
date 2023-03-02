@@ -38,36 +38,36 @@ export default function Treatments() {
         <Breadcrumb.Item>{fr.title}</Breadcrumb.Item>
       </Breadcrumb>
       <div className="white-background content-container">
-        <Typography.Title level={3}>{fr.s1.title}</Typography.Title>
-        <Typography.Title level={4}>{fr.s1.ss1.title}</Typography.Title>
+        <Typography.Title level={2}>{fr.s1.title}</Typography.Title>
+        <Typography.Title level={3}>{fr.s1.ss1.title}</Typography.Title>
         <p>{fr.s1.ss1.p1}</p>
-        <Typography.Title level={4}>{fr.s1.ss2.title}</Typography.Title>
+        <Typography.Title level={3}>{fr.s1.ss2.title}</Typography.Title>
         <p>{fr.s1.ss2.p1}</p>
-        <Typography.Title level={4}>{fr.s1.ss3.title}</Typography.Title>
+        <Typography.Title level={3}>{fr.s1.ss3.title}</Typography.Title>
         <Bullets bullets={fr.s1.ss3.bullets} />
-        <Typography.Title level={4}>{fr.s1.ss4.title}</Typography.Title>
+        <Typography.Title level={3}>{fr.s1.ss4.title}</Typography.Title>
         <Bullets bullets={fr.s1.ss4.bullets} />
-        <Typography.Title level={4}>{fr.s1.ss5.title}</Typography.Title>
+        <Typography.Title level={3}>{fr.s1.ss5.title}</Typography.Title>
         <p>{fr.s1.ss5.p1}</p>
         <p>{fr.s1.ss5.p2}</p>
 
-        <Typography.Title level={3}>{fr.s2.title}</Typography.Title>
+        <Typography.Title level={2}>{fr.s2.title}</Typography.Title>
         <p>{fr.s2.p1}</p>
 
-        <Typography.Title level={3}>{fr.s3.title}</Typography.Title>
-        <Typography.Title level={4}>{fr.s3.ss1.title}</Typography.Title>
+        <Typography.Title level={2}>{fr.s3.title}</Typography.Title>
+        <Typography.Title level={3}>{fr.s3.ss1.title}</Typography.Title>
         <p>{fr.s3.ss1.p1}</p>
         <p>{fr.s3.ss1.p1}</p>
-        <Typography.Title level={4}>{fr.s3.ss2.title}</Typography.Title>
+        <Typography.Title level={3}>{fr.s3.ss2.title}</Typography.Title>
         <p>{fr.s3.ss2.p1}</p>
-        <Typography.Title level={4}>{fr.s3.ss3.title}</Typography.Title>
+        <Typography.Title level={3}>{fr.s3.ss3.title}</Typography.Title>
         {displayOrderedBullets(fr.s3.ss3.bullets)}
-        <Typography.Title level={4}>{fr.s3.ss4.title}</Typography.Title>
+        <Typography.Title level={3}>{fr.s3.ss4.title}</Typography.Title>
         <p>{fr.s3.ss4.p1}</p>
         <p>{fr.s3.ss4.p2}</p>
         <p>{fr.s3.ss4.p3}</p>
 
-        <Typography.Title level={3}>{fr.s4.title}</Typography.Title>
+        <Typography.Title level={2}>{fr.s4.title}</Typography.Title>
         <p>{fr.s4.p1}</p>
         {displayOrderedBullets(fr.s4.bullets)}
       </div>

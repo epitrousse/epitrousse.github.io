@@ -23,23 +23,41 @@ export default function AboutEpilepsy() {
       </Breadcrumb>
       <div className="white-background content-container">
         <Collapse accordion ghost>
-          <Collapse.Panel header={fr.category1.title} key="1">
+          <Collapse.Panel
+            header={
+              <Typography.Title level={2}>
+                {fr.category1.title}
+              </Typography.Title>
+            }
+            key="1">
             <p>{fr.category1.p1}</p>
           </Collapse.Panel>
 
-          <Collapse.Panel header={fr.category2.title} key="2">
+          <Collapse.Panel
+            header={
+              <Typography.Title level={2}>
+                {fr.category2.title}
+              </Typography.Title>
+            }
+            key="2">
             <p>{fr.category2.p1}</p>
           </Collapse.Panel>
 
-          <Collapse.Panel header={fr.category3.title} key="3">
+          <Collapse.Panel
+            header={
+              <Typography.Title level={2}>
+                {fr.category3.title}
+              </Typography.Title>
+            }
+            key="3">
             <p>{fr.category3.p1}</p>
             <Bullets bullets={fr.category3.bullets} />
-            <Typography.Title level={4}>
+            <Typography.Title level={3}>
               {fr.category3.causes.title}
             </Typography.Title>
             <p>{fr.category3.causes.p1}</p>
             <p>{fr.category3.causes.p2}</p>
-            <Typography.Title level={4}>
+            <Typography.Title level={3}>
               {fr.category3.triggers.title}
             </Typography.Title>
             <p>{fr.category3.triggers.p1}</p>
@@ -47,13 +65,19 @@ export default function AboutEpilepsy() {
             <Bullets bullets={fr.category3.triggers.bullets} />
           </Collapse.Panel>
 
-          <Collapse.Panel header={fr.category4.title} key="4">
+          <Collapse.Panel
+            header={
+              <Typography.Title level={2}>
+                {fr.category4.title}
+              </Typography.Title>
+            }
+            key="4">
             <p>{fr.category4.p1}</p>
-            <Typography.Title level={4}>
+            <Typography.Title level={3}>
               {fr.category4.ss1.title}
             </Typography.Title>
             <Bullets bullets={fr.category4.ss1.bullets} />
-            <Typography.Title level={4}>
+            <Typography.Title level={3}>
               {fr.category4.ss2.title}
             </Typography.Title>
             <p>{fr.category4.ss2.p1}</p>

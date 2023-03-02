@@ -13,7 +13,7 @@ export default function TitleSectionKit({
   return (
     <Row className="white-background section-kit-container">
       <Col xs={24} md={12} className="flex-center">
-        <Typography.Title level={2} className="section-kit-title">
+        <Typography.Title className="section-kit-title">
           {title}
         </Typography.Title>
       </Col>
