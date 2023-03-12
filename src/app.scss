@@ -37,6 +37,11 @@ body {
   padding: 1rem;
 }
 
+.ant-collapse-content-box {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
 .ant-collapse-header {
   align-items: center !important;
 
@@ -46,6 +51,14 @@ body {
   }
 }
 
+.floatRight {
+  float: right;
+}
+
+.floatLeft {
+  float: left;
+}
+
 @media only screen and (max-width: 1200px) {
   .max-viewport-width {
     width: auto;
@@ -53,5 +66,15 @@ body {
 
   .margin-page-view {
     margin: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .ant-collapse-content-box {
+    padding: 0 !important;
+  }
+
+  .ant-collapse-header {
+    padding: 0 !important;
   }
 }

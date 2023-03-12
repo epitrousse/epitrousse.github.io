@@ -6,7 +6,7 @@ export const fr = {
   },
   category2: {
     title: 'Que se passe-t-il lors d’une crise d’épilepsie?',
-    p1: `Lors d’une crise d’épilepsie, le fonctionnement normal du cerveau est perturbé par un courant électrique excessif. Il en résulte différents types de crise d’épilepsie en fonction de la région du cerveau qui est ainsi touchée.`
+    p1: `L’épilepsie peut être définie comme une tendance durable à faire des crises récurrentes de différent type en fonction de la zone du cerveau touchée, déclenchées de manière souvent spontanée.  Lors d’une telle crise, le fonctionnement normal du cerveau est perturbé par un courant électrique excessif.`
   },
   category3: {
     title: 'Quels sont les éléments déclencheurs et les causes de l’épilepsie?',

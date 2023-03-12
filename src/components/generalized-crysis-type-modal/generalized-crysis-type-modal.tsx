@@ -1,5 +1,6 @@
 import { PlusOutlined } from '@ant-design/icons';
-import { Button, Modal } from 'antd';
+import { Card, Modal } from 'antd';
+import Meta from 'antd/es/card/Meta';
 import { useState } from 'react';
 import { BulletWithSubBullets } from '../../models/bulletWithSubBullets';
 import Bullets from '../bullets/bullets';
@@ -9,12 +10,14 @@ interface GeneralizedCrysisTypeModalProps {
   title: string;
   bullets: (string | BulletWithSubBullets)[];
   type: string;
+  img: string;
 }
 
 export default function GeneralizedCrysisTypeModal({
   title,
   bullets,
-  type
+  type,
+  img
 }: GeneralizedCrysisTypeModalProps) {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -28,9 +31,20 @@ export default function GeneralizedCrysisTypeModal({
 
   return (
     <>
-      <Button onClick={showModal}>
-        <PlusOutlined /> {type}
-      </Button>
+      <Card
+        className="generalized-crysis-card"
+        onClick={showModal}
+        hoverable
+        style={{ width: 250 }}
+        cover={<img src={img} />}>
+        <Meta
+          title={
+            <>
+              {type} <PlusOutlined />
+            </>
+          }
+        />
+      </Card>
       <Modal
         title={title}
         open={isModalOpen}

@@ -22,7 +22,7 @@ export default function Kit() {
   );
 
   return (
-    <div className="max-viewport-width margin-page-view">
+    <div className="max-viewport-width margin-page-view kit">
       <Typography.Title level={1}>{fr.title}</Typography.Title>
       <Breadcrumb separator=">">
         <Breadcrumb.Item>
