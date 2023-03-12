@@ -1,7 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.24465329.css",
-    "main.js": "/static/js/main.1c50612e.js",
+    "main.css": "/static/css/main.c12a5cc4.css",
+    "main.js": "/static/js/main.b1877e15.js",
+    "static/media/brain.png": "/static/media/brain.276acc8ac173060ee07c.png",
+    "static/media/myoclonic-crysis.png": "/static/media/myoclonic-crysis.b3dcc9b3b5af21850e42.png",
+    "static/media/absence.png": "/static/media/absence.e9d9d19415ab39d98824.png",
+    "static/media/tonico-clonic-crysis.png": "/static/media/tonico-clonic-crysis.7924d8792fe65a2888e3.png",
+    "static/media/atonic-crysis.png": "/static/media/atonic-crysis.8da34bd7e8b5ac70e0a5.png",
+    "static/media/generalized-crysis.png": "/static/media/generalized-crysis.91ce788538da3f539dc6.png",
+    "static/media/focal-crysis.png": "/static/media/focal-crysis.55c05d74c4d84666de08.png",
+    "static/media/focal-crysis-2.jpg": "/static/media/focal-crysis-2.1856a86fabf1b63ac07b.jpg",
     "static/media/home-2.jpg": "/static/media/home-2.7925c5f350d2047b4727.jpg",
     "static/media/topic-3.jpg": "/static/media/topic-3.1456ddcbf094dc8ded13.jpg",
     "static/media/home-3.jpg": "/static/media/home-3.2400a46f71c796e00b7a.jpg",
@@ -11,12 +19,13 @@
     "static/media/topic-5.jpg": "/static/media/topic-5.054e41dbb26a959be851.jpg",
     "static/media/topic-4.jpg": "/static/media/topic-4.5dd0fc3e5885a3f9bb46.jpg",
     "static/media/topic-1.jpg": "/static/media/topic-1.9264ae873fbf995b1fc9.jpg",
+    "static/media/causes.jpg": "/static/media/causes.c413ed5b74cff4537a70.jpg",
     "index.html": "/index.html",
-    "main.24465329.css.map": "/static/css/main.24465329.css.map",
-    "main.1c50612e.js.map": "/static/js/main.1c50612e.js.map"
+    "main.c12a5cc4.css.map": "/static/css/main.c12a5cc4.css.map",
+    "main.b1877e15.js.map": "/static/js/main.b1877e15.js.map"
   },
   "entrypoints": [
-    "static/css/main.24465329.css",
-    "static/js/main.1c50612e.js"
+    "static/css/main.c12a5cc4.css",
+    "static/js/main.b1877e15.js"
   ]
 }
