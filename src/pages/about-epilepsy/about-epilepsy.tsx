@@ -1,87 +1,17 @@
-import { Breadcrumb, Col, Collapse, Image, Row, Typography } from 'antd';
-import { useState } from 'react';
+import { Breadcrumb, Collapse, Image, Typography } from 'antd';
 import { Link } from 'react-router-dom';
-import imgAbsence from '../../assets/img/about-epilepsy/absence.png';
-import imgAtonic from '../../assets/img/about-epilepsy/atonic-crysis.png';
-import imgMyoclonic from '../../assets/img/about-epilepsy/myoclonic-crysis.png';
-import imgTonicoClonic from '../../assets/img/about-epilepsy/tonico-clonic-crysis.png';
 import topic1 from '../../assets/img/topic-1.jpg';
 import Bullets from '../../components/bullets/bullets';
-import GeneralizedCrysisTypeModal from '../../components/generalized-crysis-type-modal/generalized-crysis-type-modal';
+import CrysisCategoriesSection from '../../components/crysis-categories-section/crysis-categories-section';
 import TitleSectionKit from '../../components/title-section-kit/title-section-kit';
 import { Routes } from '../../models/enums/routes.enum';
 import imgBrain from './../../assets/img/about-epilepsy/brain.png';
 import imgCauses from './../../assets/img/about-epilepsy/causes.jpg';
-import imgFocalCrysis2 from './../../assets/img/about-epilepsy/focal-crysis-2.jpg';
 import { fr as commonFr } from './../../common/i18n/fr';
 import './about-epilepsy.scss';
 import { fr } from './i18n/fr';
 
-enum CrysisType {
-  Generalized = 'Generalized',
-  Focal = 'Focal'
-}
-
 export default function AboutEpilepsy() {
-  const [crysisToDisplay, setCrysisToDisplay] = useState(null);
-
-  const displayFocalCrysis = () => (
-    <>
-      <Typography.Title level={3}>{fr.category4.ss1.title}</Typography.Title>
-      <div>
-        <img className="floatRight focalCrysisImg" src={imgFocalCrysis2} />
-        <Bullets bullets={fr.category4.ss1.bullets} />
-      </div>
-    </>
-  );
-
-  const displayGeneralizedCrysis = () => (
-    <>
-      <Typography.Title level={3}>{fr.category4.ss2.title}</Typography.Title>
-      <p>{fr.category4.ss2.p1}</p>
-      <Row style={{ width: 'fit-content' }} gutter={[16, 16]}>
-        <Col className="flex-center" xs={24} sm={12} lg={6}>
-          <GeneralizedCrysisTypeModal
-            title={fr.category4.ss2.sss1.title}
-            bullets={fr.category4.ss2.sss1.bullets}
-            type={fr.category4.ss2.sss1.type}
-            img={imgAbsence}
-          />
-        </Col>
-        <Col className="flex-center" xs={24} sm={12} lg={6}>
-          <GeneralizedCrysisTypeModal
-            title={fr.category4.ss2.sss2.title}
-            bullets={fr.category4.ss2.sss2.bullets}
-            type={fr.category4.ss2.sss2.type}
-            img={imgTonicoClonic}
-          />
-        </Col>
-        <Col className="flex-center" xs={24} sm={12} lg={6}>
-          <GeneralizedCrysisTypeModal
-            title={fr.category4.ss2.sss3.title}
-            bullets={fr.category4.ss2.sss3.bullets}
-            type={fr.category4.ss2.sss3.type}
-            img={imgAtonic}
-          />
-        </Col>
-        <Col className="flex-center" xs={24} sm={12} lg={6}>
-          <GeneralizedCrysisTypeModal
-            title={fr.category4.ss2.sss4.title}
-            bullets={fr.category4.ss2.sss4.bullets}
-            type={fr.category4.ss2.sss4.type}
-            img={imgMyoclonic}
-          />
-        </Col>
-      </Row>
-    </>
-  );
-
-  const displayCrysisCategory = (imgClass, crysis) => (
-    <div
-      className={`box ${imgClass} ${crysis === crysisToDisplay && 'selected'}`}
-      onClick={() => setCrysisToDisplay(crysis)}></div>
-  );
-
   return (
     <div className="max-viewport-width margin-page-view about-epilepsy">
       <TitleSectionKit imgTopic={topic1} title={fr.title}></TitleSectionKit>
@@ -158,18 +88,16 @@ export default function AboutEpilepsy() {
             }
             key="4">
             <p>{fr.category4.p1}</p>
-            <div className="crysisCategories">
-              {displayCrysisCategory('focalCrysisBackground', CrysisType.Focal)}
-              {displayCrysisCategory(
-                'generalizedCrysisBackground',
-                CrysisType.Generalized
-              )}
-            </div>
-            <>{CrysisType.Focal === crysisToDisplay && displayFocalCrysis()}</>
-            <>
-              {CrysisType.Generalized === crysisToDisplay &&
-                displayGeneralizedCrysis()}
-            </>
+            <CrysisCategoriesSection
+              focalTitle={fr.category4.ss1.title}
+              focalBullets={fr.category4.ss1.bullets}
+              myoclonicBullets={fr.category4.ss2.sss4.bullets}
+              tonicoClonicBullets={fr.category4.ss2.sss2.bullets}
+              absenceBullets={fr.category4.ss2.sss1.bullets}
+              atonicBullets={fr.category4.ss2.sss3.bullets}
+              generalizedCrysisTitle={fr.category4.ss2.title}
+              generalizedCrysisText={fr.category4.ss2.p1}
+            />
           </Collapse.Panel>
         </Collapse>
       </div>

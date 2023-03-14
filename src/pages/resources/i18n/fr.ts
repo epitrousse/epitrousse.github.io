@@ -1,5 +1,5 @@
 export const fr = {
-  title: `Ressources`,
+  title: `Références`,
   contentTab: {
     title: 'Contenu',
     bibliography: [

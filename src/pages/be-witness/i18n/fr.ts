@@ -4,7 +4,7 @@ export const fr = {
   p2: `En tant que témoin d’une crise, il y a certaines choses à faire pour porter assistance à la personne qui en est atteinte.`,
   p3: `Les gestes à poser pour porter secours à une personne faisant une crise devant vous se ressemblent généralement mais peuvent différer en fonction du type de crise dont la personne est atteinte. De manière générale, assister une personne atteinte d’une crise consiste à s’assurer de sa sécurité physique le temps de la crise et rester avec elle une fois la crise passée, tout en monitorant la durée de la crise. Les recommandations plus précises pour chaque type de crise se retrouvent sous chacune des icones leur correspondant.`,
   ss1: {
-    title: `Qu'est-ce que je dois faire si quelqu'un a une crise focale en ma présence:`,
+    title: `Qu'est-ce que je dois faire si quelqu'un a une crise focale en ma présence?`,
     bullets: [
       `En général, une crise focale n’implique pas une perte de conscience et ne dure qu’1 à 2 minutes, mais elle peut se transformer en crise généralisée avec perte de conscience.`,
       `Il se peut que la personne atteinte fasse des mouvements involontaires, ait des sensations visuelles, olfactives, tactiles ou auditives inhabituelles, ou ne soit pas en mesure de vous répondre ou de vous comprendre.`,
@@ -20,9 +20,8 @@ export const fr = {
     ]
   },
   ss2: {
-    title: `QU’EST-CE QUE JE DOIS FAIRE SI QUELQU’UN A UNE CRISE GÉNÉRALISÉE EN MA PRÉSENCE:`,
+    title: `Qu'est ce que je dois faire si quelqu'un a une crise généralisée en ma présence?`,
     sss1: {
-      title: `Absence`,
       bullets: [
         `Une absence est habituellement de courte durée (10 secondes) et au cours d’une telle crise, la personne est tout d’un coup dans la lune, a le regard dans le vague, bouge très peu et ne répond pas quand on lui parle.`,
         {
@@ -36,7 +35,6 @@ export const fr = {
       ]
     },
     sss2: {
-      title: `Crise tonico-clonique`,
       bullets: [
         `Durant ce type de crise, la personne commence par se raidir, chuter et perdre conscience; il se peut qu’elle émette des cris involontairement. Ensuite, son corps convulse et il est possible que de la salive s’accumule dans sa bouche, qu’elle se morde la langue et perde ses selles ou son urine. Ce type de crise peut durer plus de 3 minutes. Après une telle crise, la personne peut avoir besoin d’un certain temps pour complètement revenir à elle.`,
         {
@@ -56,7 +54,6 @@ export const fr = {
       ]
     },
     sss3: {
-      title: `Crise atonique`,
       bullets: [
         `Ce type de crise se caractérise par une perte de conscience, une chute et une absence de mouvements.`,
         {
@@ -74,7 +71,6 @@ export const fr = {
       ]
     },
     sss4: {
-      title: `Crise myoclonique`,
       bullets: [
         `Une telle crise se caractérise par des secousses musculaires brusques et intenses d’une partie ou de l’ensemble du corps pouvant entraîner une chute, sans perte de conscience.`,
         {
@@ -95,7 +91,7 @@ export const fr = {
     }
   },
   ss3: {
-    title: `QUAND EST-CE QUE JE DOIS COMPOSER LE 911 ?`,
+    title: `Quand est-ce que je dois composer le 911?`,
     p1: `Finalement et quel que soit le type de crise, il est aussi important de connaître les situations dans lesquelles il faut appeler les secours :`,
     bullets: [
       `Il s’agit de la première crise de la personne. En cas de doute et si vous ne pouvez pas obtenir cette information, assumez qu’il s’agit d’une première crise;`,

@@ -1,22 +1,19 @@
 export const fr = {
   title: `Outils divers`,
+  description: `Voici une liste exhaustive d'outils complémentaires qui pourrait vous permettre de vous aider ou aider quelqu'un atteint d'épliepsie :`,
   tools: {
     tool1: `Préparation aux rendez-vous médicaux`,
     tool2: `Journal des crises`,
     tool3: {
-      name: `Ressources diverses`,
-      resource1: {
-        name: `Vidéo explicative pour les enfants d’un site suisse:`,
-        link: `https://www.epi.ch/fr/publications/films/videos-explicatives-sur-lepilepsie/`
-      },
-      resource2: {
-        name: `Répertoire de ressources d’aide :`,
-        link: `https://www.associationquebecoiseepilepsie.com/images/actualite/Repertoire_de_ressources_VFdocx.pdf`
-      }
+      name: `Vidéo explicative pour les enfants`,
+      link: `https://www.epi.ch/fr/publications/films/videos-explicatives-sur-lepilepsie/`
     },
     tool4: {
-      name: `Brochures informatives sur l'épilepsie`,
-      descripion: `Voici 11 brochures sur différents aspects de l’épilepsie. Ce matériel est rendu disponible grâce à la collaboration de l’Association d’Épilepsie Edmonton.`,
+      name: `Répertoire de ressources d’aide`,
+      link: `https://www.associationquebecoiseepilepsie.com/images/actualite/Repertoire_de_ressources_VFdocx.pdf`
+    },
+    tool5: {
+      descripion: `11 brochures sur différents aspects de l’épilepsie. Ce matériel est rendu disponible grâce à la collaboration de l’Association d’Épilepsie Edmonton.`,
       brochures: {
         brochure1: {
           name: ` L’épilepsie: un guide pour les parents`,

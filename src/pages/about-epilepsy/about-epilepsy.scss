@@ -11,40 +11,8 @@
     padding-right: 40px;
   }
 
-  .crysisCategories {
-    display: flex;
-    border-bottom: 1px solid rgba(5, 5, 5, 0.06);
-  }
-
-  .focalCrysisImg {
-    width: 200px;
-  }
-
   .triggersImg {
     width: 250px;
-  }
-
-  .box {
-    cursor: pointer;
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .box:hover,
-  .box:focus,
-  .box.selected {
-    border-bottom: #ff7a45 solid 2px;
-  }
-
-  .focalCrysisBackground {
-    background-image: url('../../assets/img/about-epilepsy/focal-crysis.png');
-    margin-right: 20px;
-  }
-
-  .generalizedCrysisBackground {
-    background-image: url('../../assets/img/about-epilepsy/generalized-crysis.png');
   }
 
   @media only screen and (max-width: 1200px) {

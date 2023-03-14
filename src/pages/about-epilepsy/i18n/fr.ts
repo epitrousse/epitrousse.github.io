@@ -60,8 +60,6 @@ export const fr = {
       title: `Crise généralisée`,
       p1: `Les crises d’épilepsie généralisées touchent toutes les zones du cerveau. Elles se regroupent en quatre catégories distinctes : les absences, les crises tonico-cloniques, les crises atoniques et les crises myocloniques.`,
       sss1: {
-        type: `Absence`,
-        title: `Absence (ou crise de type PETIT MAL)`,
         bullets: [
           `Elles se développent habituellement durant l’enfance, mais elle est plus rare chez les très jeunes enfants. Elles disparaissent dans 75 % des cas à l’âge adulte;`,
           `Elles sont de courte durée, autour de 10 secondes;`,
@@ -79,8 +77,6 @@ export const fr = {
         ]
       },
       sss2: {
-        type: `Crise tonico-clonique`,
-        title: `Crise tonico-clonique (ou crise de type GRAND MAL)`,
         bullets: [
           `Ce type de crise comporte deux phases comme l’indique son nom, l’une tonique et l’autre clonique;`,
           {
@@ -104,8 +100,6 @@ export const fr = {
         ]
       },
       sss3: {
-        type: `Crise atonique`,
-        title: `Crise atonique`,
         bullets: [
           `Il y a une perte de conscience;`,
           `La personne perd soudainement son tonus musculaire et peut donc se retrouver au sol;`,
@@ -113,8 +107,6 @@ export const fr = {
         ]
       },
       sss4: {
-        type: `Crise myoclonique`,
-        title: `Crise myoclonique`,
         bullets: [
           `Il n’y a pas de perte de conscience;`,
           `Secousses musculaires brusques et intenses d’une partie ou de l’ensemble du corps pouvant entraîner une chute;`,

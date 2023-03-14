@@ -1,6 +1,6 @@
 export const fr = {
   kit: `Trousse`,
   about: `À propos`,
-  resources: `Resources`,
+  resources: `Références`,
   home: `Accueil`
 };

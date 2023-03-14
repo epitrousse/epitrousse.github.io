@@ -13,7 +13,7 @@ export default function App() {
           fontSizeHeading1: 30,
           fontSizeHeading2: 22,
           fontSizeHeading3: 20,
-          fontSizeHeading4: 18
+          fontSizeHeading4: 16
         }
       }}>
       <Layout>

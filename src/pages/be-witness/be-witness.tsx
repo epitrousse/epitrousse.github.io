@@ -2,6 +2,7 @@ import { Breadcrumb, Typography } from 'antd';
 import { Link } from 'react-router-dom';
 import topic2 from '../../assets/img/topic-2.jpg';
 import Bullets from '../../components/bullets/bullets';
+import CrysisCategoriesSection from '../../components/crysis-categories-section/crysis-categories-section';
 import TitleSectionKit from '../../components/title-section-kit/title-section-kit';
 import { Routes } from '../../models/enums/routes.enum';
 import { fr as commonFr } from './../../common/i18n/fr';
@@ -24,19 +25,21 @@ export default function BeWitness() {
         <p>{fr.p1}</p>
         <p>{fr.p2}</p>
         <p>{fr.p3}</p>
-        <Typography.Title level={2}>{fr.ss1.title}</Typography.Title>
-        <Bullets bullets={fr.ss1.bullets} />
-        <Typography.Title level={2}>{fr.ss2.title}</Typography.Title>
-        <Typography.Title level={3}>{fr.ss2.sss1.title}</Typography.Title>
-        <Bullets bullets={fr.ss2.sss1.bullets} />
-        <Typography.Title level={3}>{fr.ss2.sss2.title}</Typography.Title>
-        <Bullets bullets={fr.ss2.sss2.bullets} />
-        <Typography.Title level={3}>{fr.ss2.sss3.title}</Typography.Title>
-        <Bullets bullets={fr.ss2.sss3.bullets} />
-        <Typography.Title level={3}>{fr.ss2.sss4.title}</Typography.Title>
-        <Bullets bullets={fr.ss2.sss4.bullets} />
-        <Typography.Title level={2}>{fr.ss3.title}</Typography.Title>
-        <Bullets bullets={fr.ss3.bullets} />
+        <CrysisCategoriesSection
+          focalTitle={fr.ss1.title}
+          focalBullets={fr.ss1.bullets}
+          myoclonicBullets={fr.ss2.sss4.bullets}
+          tonicoClonicBullets={fr.ss2.sss2.bullets}
+          absenceBullets={fr.ss2.sss1.bullets}
+          atonicBullets={fr.ss2.sss3.bullets}
+          generalizedCrysisTitle={fr.ss2.title}
+          generalizedBloc={
+            <>
+              <Typography.Title level={3}>{fr.ss3.title}</Typography.Title>
+              <Bullets bullets={fr.ss3.bullets} />
+            </>
+          }
+        />
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import { Breadcrumb, Typography } from 'antd';
+import { Breadcrumb, Collapse, Typography } from 'antd';
 import { Link } from 'react-router-dom';
 import topic3 from '../../assets/img/topic-3.jpg';
 import Bullets from '../../components/bullets/bullets';
@@ -7,23 +7,19 @@ import { Routes } from '../../models/enums/routes.enum';
 import { fr as commonFr } from './../../common/i18n/fr';
 import { fr } from './i18n/fr';
 
-interface OrderedBullets {
+interface SurgeryType {
   title: string;
   p1: string;
 }
 
 export default function Treatments() {
-  const displayOrderedBullets = (bullets: OrderedBullets[]) => {
-    return (
-      <ol>
-        {bullets.map((bullet) => (
-          <li key={bullet.title}>
-            {bullet.title} <p>{bullet.p1}</p>
-          </li>
-        ))}
-      </ol>
-    );
-  };
+  const displaySurgeryTypes = (surgeryTypes: SurgeryType[]) =>
+    surgeryTypes.map((surgeryType) => (
+      <>
+        <Typography.Title level={4}>{surgeryType.title}</Typography.Title>
+        <p>{surgeryType.p1}</p>
+      </>
+    ));
 
   return (
     <div className="max-viewport-width margin-page-view">
@@ -38,38 +34,49 @@ export default function Treatments() {
         <Breadcrumb.Item>{fr.title}</Breadcrumb.Item>
       </Breadcrumb>
       <div className="white-background content-container">
-        <Typography.Title level={2}>{fr.s1.title}</Typography.Title>
-        <Typography.Title level={3}>{fr.s1.ss1.title}</Typography.Title>
-        <p>{fr.s1.ss1.p1}</p>
-        <Typography.Title level={3}>{fr.s1.ss2.title}</Typography.Title>
-        <p>{fr.s1.ss2.p1}</p>
-        <Typography.Title level={3}>{fr.s1.ss3.title}</Typography.Title>
-        <Bullets bullets={fr.s1.ss3.bullets} />
-        <Typography.Title level={3}>{fr.s1.ss4.title}</Typography.Title>
-        <Bullets bullets={fr.s1.ss4.bullets} />
-        <Typography.Title level={3}>{fr.s1.ss5.title}</Typography.Title>
-        <p>{fr.s1.ss5.p1}</p>
-        <p>{fr.s1.ss5.p2}</p>
+        <Collapse accordion ghost>
+          <Collapse.Panel
+            header={
+              <Typography.Title level={2}>{fr.s1.title}</Typography.Title>
+            }
+            key="1">
+            <p>{fr.s1.ss1.p1}</p>
+            <Typography.Title level={3}>{fr.s1.ss2.title}</Typography.Title>
+            <p>{fr.s1.ss2.p1}</p>
+            <Bullets bullets={fr.s1.ss3.bullets} />
+            <Typography.Title level={3}>{fr.s1.ss4.title}</Typography.Title>
+            <Bullets bullets={fr.s1.ss4.bullets} />
+            <Typography.Title level={3}>{fr.s1.ss5.title}</Typography.Title>
+            <p>{fr.s1.ss5.p1}</p>
+            <p>{fr.s1.ss5.p2}</p>
+            <Typography.Title level={3}>{fr.s1.ss6.title}</Typography.Title>
+            <p>{fr.s1.ss6.p1}</p>
+            <p>{fr.s1.ss6.p2}</p>
+            <Typography.Title level={3}>{fr.s1.ss7.title}</Typography.Title>
+            <p>{fr.s1.ss7.p1}</p>
+          </Collapse.Panel>
 
-        <Typography.Title level={2}>{fr.s2.title}</Typography.Title>
-        <p>{fr.s2.p1}</p>
+          <Collapse.Panel
+            header={
+              <Typography.Title level={2}>{fr.s2.title}</Typography.Title>
+            }
+            key="2">
+            <p>{fr.s2.ss2.p1}</p>
+            <Typography.Title level={3}>{fr.s2.ss3.title}</Typography.Title>
+            {displaySurgeryTypes(fr.s2.ss3.types)}
+            <Typography.Title level={3}>{fr.s2.ss4.title}</Typography.Title>
+            <p>{fr.s2.ss4.p1}</p>
+          </Collapse.Panel>
 
-        <Typography.Title level={2}>{fr.s3.title}</Typography.Title>
-        <Typography.Title level={3}>{fr.s3.ss1.title}</Typography.Title>
-        <p>{fr.s3.ss1.p1}</p>
-        <p>{fr.s3.ss1.p1}</p>
-        <Typography.Title level={3}>{fr.s3.ss2.title}</Typography.Title>
-        <p>{fr.s3.ss2.p1}</p>
-        <Typography.Title level={3}>{fr.s3.ss3.title}</Typography.Title>
-        {displayOrderedBullets(fr.s3.ss3.bullets)}
-        <Typography.Title level={3}>{fr.s3.ss4.title}</Typography.Title>
-        <p>{fr.s3.ss4.p1}</p>
-        <p>{fr.s3.ss4.p2}</p>
-        <p>{fr.s3.ss4.p3}</p>
-
-        <Typography.Title level={2}>{fr.s4.title}</Typography.Title>
-        <p>{fr.s4.p1}</p>
-        {displayOrderedBullets(fr.s4.bullets)}
+          <Collapse.Panel
+            header={
+              <Typography.Title level={2}>{fr.s3.title}</Typography.Title>
+            }
+            key="3">
+            <p>{fr.s3.p1}</p>
+            {displaySurgeryTypes(fr.s3.types)}
+          </Collapse.Panel>
+        </Collapse>
       </div>
     </div>
   );
