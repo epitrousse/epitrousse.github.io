@@ -1,4 +1,3 @@
-import { Typography } from 'antd';
 import { ReactNode, useState } from 'react';
 import './flippable-card.scss';
 
@@ -18,14 +17,14 @@ export default function FlippableCard({
   };
 
   return (
-    <div className="card" onClick={flipCard}>
-      <div className={`card-body ${isFlipped && 'is-flipped'}`}>
-        <div className="card-front">
-          <Typography.Text className="card-title">
-            {frontContent}
-          </Typography.Text>
+    <div className="flippable-card">
+      <div className="card" onClick={flipCard}>
+        <div className={`card-body ${isFlipped && 'is-flipped'}`}>
+          <div className="card-front">
+            <p className="card-title">{frontContent}</p>
+          </div>
+          <div className="card-back">{backContent}</div>
         </div>
-        <div className="card-back">{backContent}</div>
       </div>
     </div>
   );

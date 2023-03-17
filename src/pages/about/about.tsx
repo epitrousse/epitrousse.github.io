@@ -1,7 +1,7 @@
 import { Breadcrumb, Col, Image, Row, Typography } from 'antd';
 import { Link } from 'react-router-dom';
 import studentsGroup from '../../assets/img/group.jpg';
-import { Routes } from '../../models/enums/routes.enum';
+import { AppRoutes } from '../../models/enums/routes.enum';
 import { fr as commonFr } from './../../common/i18n/fr';
 import './about.scss';
 import { fr } from './i18n/fr';
@@ -12,7 +12,7 @@ export default function About() {
       <Typography.Title level={1}>{fr.title}</Typography.Title>
       <Breadcrumb separator=">">
         <Breadcrumb.Item>
-          <Link to={Routes.Home}>{commonFr.home}</Link>
+          <Link to={AppRoutes.Home}>{commonFr.home}</Link>
         </Breadcrumb.Item>
         <Breadcrumb.Item>{commonFr.about}</Breadcrumb.Item>
       </Breadcrumb>

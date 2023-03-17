@@ -15,9 +15,7 @@ export default function Home() {
         direction="vertical"
         size="middle">
         <Typography.Title className="home-title">{fr.welcome}</Typography.Title>
-        <Typography.Text className="home-description">
-          {fr.intro}
-        </Typography.Text>
+        <p className="home-description">{fr.intro}</p>
         <Button size="large" type="primary" style={{ marginBottom: '40px' }}>
           <Link to="/trousse">{fr.goToKit}</Link>
         </Button>
@@ -31,7 +29,7 @@ export default function Home() {
       <div className="max-viewport-width messages-container">
         <Row>
           <Col xs={24} sm={11} className="flex-center home-cols">
-            <Typography.Text>{fr.mission}</Typography.Text>
+            <p>{fr.mission}</p>
           </Col>
           <Col span={2} className="home-grid-divider flex-center">
             <Divider type="vertical" style={{ height: '100%' }} />
@@ -41,12 +39,8 @@ export default function Home() {
             sm={11}
             className="flex-center home-cols"
             style={{ flexDirection: 'column' }}>
-            <Typography.Text strong italic>
-              {fr.quote}
-            </Typography.Text>
-            <Typography.Text style={{ marginTop: '10px' }}>
-              {fr.quoteFrom}
-            </Typography.Text>
+            <p style={{ fontWeight: 500, fontStyle: 'italic' }}>{fr.quote}</p>
+            <p style={{ marginTop: '10px' }}>{fr.quoteFrom}</p>
           </Col>
         </Row>
       </div>

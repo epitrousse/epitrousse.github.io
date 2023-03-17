@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { HeaderTabsKeys } from '../models/enums/header-tabs-keys.enum';
-import { Routes } from '../models/enums/routes.enum';
+import { AppRoutes } from '../models/enums/routes.enum';
 
 export default function useSelectedTabs() {
   const location = useLocation();
@@ -9,16 +9,16 @@ export default function useSelectedTabs() {
 
   useEffect(() => {
     switch (location.pathname) {
-      case Routes.Home:
+      case AppRoutes.Home:
         setselectedKeys([]);
         break;
-      case Routes.Kit:
+      case AppRoutes.Kit:
         setselectedKeys([HeaderTabsKeys.Kit]);
         break;
-      case Routes.About:
+      case AppRoutes.About:
         setselectedKeys([HeaderTabsKeys.About]);
         break;
-      case Routes.Resources:
+      case AppRoutes.Resources:
         setselectedKeys([HeaderTabsKeys.Resources]);
         break;
 

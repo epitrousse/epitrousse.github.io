@@ -1,58 +1,60 @@
-.card {
-  perspective: 40rem;
-  display: flex;
-  cursor: pointer;
-  z-index: 0;
-  width: 100%;
-  height: 100%;
-}
+.flippable-card {
+  .card {
+    perspective: 40rem;
+    display: flex;
+    cursor: pointer;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+  }
 
-.card-body {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  transform-style: preserve-3d;
-  transform-origin: center right;
-  transition: transform 1s;
-  border-radius: 0.25rem;
-  flex: 1;
-}
+  .card-body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transform-origin: center right;
+    transition: transform 1s;
+    border-radius: 0.25rem;
+    flex: 1;
+  }
 
-.card-body.is-flipped {
-  transform: translateX(-100%) rotateY(-180deg);
-}
+  .card-body.is-flipped {
+    transform: translateX(-100%) rotateY(-180deg);
+  }
 
-.card-back {
-  transform: rotateY(180deg) translate(100%, 0);
-  background-color: white;
-}
+  .card-back {
+    transform: rotateY(180deg) translate(100%, 0);
+    background-color: white;
+  }
 
-.card-front {
-  background-position: center;
-  align-items: center;
-}
+  .card-front {
+    background-position: center;
+    align-items: center;
+  }
 
-.card-front,
-.card-back {
-  box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.04), 0 2px 2px rgba(0, 0, 0, 0.04),
-    0 4px 4px rgba(0, 0, 0, 0.04), 0 8px 8px rgba(0, 0, 0, 0.04),
-    0 16px 16px rgba(0, 0, 0, 0.04);
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
-  padding: 1rem;
-  border-radius: 0.25rem;
-  backface-visibility: hidden;
-  min-width: 100%;
-  text-align: center;
-  justify-content: center;
-}
+  .card-front,
+  .card-back {
+    box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.04), 0 2px 2px rgba(0, 0, 0, 0.04),
+      0 4px 4px rgba(0, 0, 0, 0.04), 0 8px 8px rgba(0, 0, 0, 0.04),
+      0 16px 16px rgba(0, 0, 0, 0.04);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    backface-visibility: hidden;
+    min-width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
 
-.card-title {
-  margin: 0;
-  color: #ff7a45 !important;
-  font-size: 20px;
-  font-weight: 400;
+  .card-title {
+    margin: 0;
+    color: #ff7a45 !important;
+    font-size: 20px;
+    font-weight: 400;
+  }
 }

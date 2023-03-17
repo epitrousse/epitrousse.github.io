@@ -2,7 +2,7 @@ import { MenuOutlined } from '@ant-design/icons';
 import { Button, Modal, Space, Typography } from 'antd';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Routes } from '../../models/enums/routes.enum';
+import { AppRoutes } from '../../models/enums/routes.enum';
 import { fr as commonFr } from './../../common/i18n/fr';
 import './header-mobile-menu.scss';
 import { fr } from './i18n/fr';
@@ -42,9 +42,9 @@ export default function HeaderMobileMenu() {
             {fr.whatToConsult}
           </Typography.Paragraph>
           <Space style={{ width: '80%' }} size="middle" direction="vertical">
-            {displayNavigationButton(commonFr.kit, Routes.Kit)}
-            {displayNavigationButton(commonFr.about, Routes.About)}
-            {displayNavigationButton(commonFr.resources, Routes.Resources)}
+            {displayNavigationButton(commonFr.kit, AppRoutes.Kit)}
+            {displayNavigationButton(commonFr.about, AppRoutes.About)}
+            {displayNavigationButton(commonFr.resources, AppRoutes.Resources)}
           </Space>
         </div>
       </Modal>

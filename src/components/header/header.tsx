@@ -2,7 +2,7 @@ import { BranchesOutlined } from '@ant-design/icons';
 import { Layout, Space } from 'antd';
 import { useNavigate } from 'react-router-dom';
 import useWindowDimensions from '../../hooks/use-window-dimensions.hook';
-import { Routes } from '../../models/enums/routes.enum';
+import { AppRoutes } from '../../models/enums/routes.enum';
 import HeaderDesktopMenu from '../header-desktop-menu/header-desktop-menu';
 import HeaderMobileMenu from '../header-mobile-menu/header-mobile-menu';
 import './header.scss';
@@ -13,7 +13,7 @@ export default function Header() {
   const navigate = useNavigate();
 
   const navigateToHome = () => {
-    navigate(Routes.Home);
+    navigate(AppRoutes.Home);
   };
 
   const displayMenu = () =>

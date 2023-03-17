@@ -4,7 +4,7 @@ import topic1 from '../../assets/img/topic-1.jpg';
 import Bullets from '../../components/bullets/bullets';
 import CrysisCategoriesSection from '../../components/crysis-categories-section/crysis-categories-section';
 import TitleSectionKit from '../../components/title-section-kit/title-section-kit';
-import { Routes } from '../../models/enums/routes.enum';
+import { AppRoutes } from '../../models/enums/routes.enum';
 import imgBrain from './../../assets/img/about-epilepsy/brain.png';
 import imgCauses from './../../assets/img/about-epilepsy/causes.jpg';
 import { fr as commonFr } from './../../common/i18n/fr';
@@ -17,10 +17,10 @@ export default function AboutEpilepsy() {
       <TitleSectionKit imgTopic={topic1} title={fr.title}></TitleSectionKit>
       <Breadcrumb separator=">">
         <Breadcrumb.Item>
-          <Link to={Routes.Home}>{commonFr.home}</Link>
+          <Link to={AppRoutes.Home}>{commonFr.home}</Link>
         </Breadcrumb.Item>
         <Breadcrumb.Item>
-          <Link to={Routes.Kit}>{commonFr.kit}</Link>
+          <Link to={AppRoutes.Kit}>{commonFr.kit}</Link>
         </Breadcrumb.Item>
         <Breadcrumb.Item>{fr.title}</Breadcrumb.Item>
       </Breadcrumb>

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import topic3 from '../../assets/img/topic-3.jpg';
 import Bullets from '../../components/bullets/bullets';
 import TitleSectionKit from '../../components/title-section-kit/title-section-kit';
-import { Routes } from '../../models/enums/routes.enum';
+import { AppRoutes } from '../../models/enums/routes.enum';
 import { fr as commonFr } from './../../common/i18n/fr';
 import { fr } from './i18n/fr';
 
@@ -26,10 +26,10 @@ export default function Treatments() {
       <TitleSectionKit imgTopic={topic3} title={fr.title}></TitleSectionKit>
       <Breadcrumb separator=">">
         <Breadcrumb.Item>
-          <Link to={Routes.Home}>{commonFr.home}</Link>
+          <Link to={AppRoutes.Home}>{commonFr.home}</Link>
         </Breadcrumb.Item>
         <Breadcrumb.Item>
-          <Link to={Routes.Kit}>{commonFr.kit}</Link>
+          <Link to={AppRoutes.Kit}>{commonFr.kit}</Link>
         </Breadcrumb.Item>
         <Breadcrumb.Item>{fr.title}</Breadcrumb.Item>
       </Breadcrumb>

@@ -1,6 +1,6 @@
 import { Breadcrumb, Tabs, TabsProps, Typography } from 'antd';
 import { Link } from 'react-router-dom';
-import { Routes } from '../../models/enums/routes.enum';
+import { AppRoutes } from '../../models/enums/routes.enum';
 import { fr as commonFr } from './../../common/i18n/fr';
 import { fr } from './i18n/fr';
 
@@ -29,7 +29,7 @@ export default function Resources() {
       <Typography.Title level={1}>{fr.title}</Typography.Title>
       <Breadcrumb separator=">">
         <Breadcrumb.Item>
-          <Link to={Routes.Home}>{commonFr.home}</Link>
+          <Link to={AppRoutes.Home}>{commonFr.home}</Link>
         </Breadcrumb.Item>
         <Breadcrumb.Item>{commonFr.resources}</Breadcrumb.Item>
       </Breadcrumb>

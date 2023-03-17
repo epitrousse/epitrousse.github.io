@@ -1,6 +1,7 @@
 import { ConfigProvider, Layout } from 'antd';
 import { RouterProvider } from 'react-router-dom';
 import './app.scss';
+import Footer from './components/footer/footer';
 import { router } from './router';
 
 export default function App() {
@@ -16,9 +17,9 @@ export default function App() {
           fontSizeHeading4: 16
         }
       }}>
-      <Layout>
+      <Layout className="full-page">
         <RouterProvider router={router} />
-        <Layout.Footer></Layout.Footer>
+        <Footer />
       </Layout>
     </ConfigProvider>
   );

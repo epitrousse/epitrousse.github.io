@@ -1,0 +1,19 @@
+.impacts {
+  .impact-card {
+    width: 100%;
+    .ant-card-meta-title {
+      font-size: 16px;
+    }
+    .ant-card-cover {
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2px 1px 1px 1px;
+      img {
+        object-fit: contain;
+        height: 200px !important;
+      }
+    }
+  }
+}

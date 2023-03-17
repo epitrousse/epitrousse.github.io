@@ -1,7 +1,7 @@
 import { Breadcrumb, Col, Row, Typography } from 'antd';
 import { Link, useNavigate } from 'react-router-dom';
 import '../../app.scss';
-import { Routes } from '../../models/enums/routes.enum';
+import { AppRoutes } from '../../models/enums/routes.enum';
 import { fr as commonFr } from './../../common/i18n/fr';
 import { fr } from './i18n/fr';
 import './kit.scss';
@@ -26,7 +26,7 @@ export default function Kit() {
       <Typography.Title level={1}>{fr.title}</Typography.Title>
       <Breadcrumb separator=">">
         <Breadcrumb.Item>
-          <Link to={Routes.Home}>{commonFr.home}</Link>
+          <Link to={AppRoutes.Home}>{commonFr.home}</Link>
         </Breadcrumb.Item>
         <Breadcrumb.Item>{commonFr.kit}</Breadcrumb.Item>
       </Breadcrumb>
@@ -37,12 +37,12 @@ export default function Kit() {
           {fr.whatToConsult}
         </Typography.Title>
         <Row gutter={[20, 16]}>
-          {displayTile(fr.aboutEpilepsy, 'topic-1', Routes.AboutEpilepsy)}
-          {displayTile(fr.beWitness, 'topic-2', Routes.BeWitness)}
-          {displayTile(fr.treatments, 'topic-3', Routes.Treatments)}
-          {displayTile(fr.impacts, 'topic-4', Routes.Impacts)}
-          {displayTile(fr.mythsAndFacts, 'topic-5', Routes.MythsAndFacts)}
-          {displayTile(fr.tools, 'topic-6', Routes.Tools)}
+          {displayTile(fr.aboutEpilepsy, 'topic-1', AppRoutes.AboutEpilepsy)}
+          {displayTile(fr.beWitness, 'topic-2', AppRoutes.BeWitness)}
+          {displayTile(fr.treatments, 'topic-3', AppRoutes.Treatments)}
+          {displayTile(fr.impacts, 'topic-4', AppRoutes.Impacts)}
+          {displayTile(fr.mythsAndFacts, 'topic-5', AppRoutes.MythsAndFacts)}
+          {displayTile(fr.tools, 'topic-6', AppRoutes.Tools)}
         </Row>
       </div>
     </div>

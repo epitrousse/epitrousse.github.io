@@ -1,4 +1,4 @@
-export enum Routes {
+export enum AppRoutes {
   Home = '/accueil',
   About = '/a-propos',
   Resources = '/ressources',
@@ -8,5 +8,21 @@ export enum Routes {
   MythsAndFacts = '/mythes-et-realites',
   Tools = '/outils-divers',
   BeWitness = '/etre-temoin',
-  Impacts = '/impacts'
+  Impacts = '/impacts',
+  AdultsImpacts = '/impacts/adulte',
+  ChildrenImpacts = '/impacts/enfant',
+  SchoolImpacts = '/impacts/enfant/ecole',
+  PsychosocialChildrenImpacts = '/impacts/enfant/psychosocial',
+  EntertainingChildrenImpacts = '/impacts/enfant/divertissement',
+  PsychosocialAdultImpacts = '/impacts/adulte/psychosocial',
+  EntertainingAdultImpacts = '/impacts/adulte/divertissement',
+  SexualityImpacts = '/impacts/adulte/sexualite',
+  DrivingImpacts = '/impacts/adulte/conduite-automobile',
+  ParenthoodImpacts = '/impacts/adulte/parentalite',
+  WorkImpacts = '/impacts/adulte/travail',
+  SleepImpacts = '/impacts/adulte/sommeil',
+  MemoryImpacts = '/impacts/adulte/memoire',
+  SportImpacts = '/impacts/adulte/sport',
+  AlcoolImpacts = '/impacts/adulte/alcool',
+  LifeInsuranceImpacts = '/impacts/adulte/assurance-vie'
 }
