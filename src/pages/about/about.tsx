@@ -1,4 +1,4 @@
-import { Breadcrumb, Col, Image, Row, Typography } from 'antd';
+import { Breadcrumb, Image, Typography } from 'antd';
 import { Link } from 'react-router-dom';
 import studentsGroup from '../../assets/img/group.jpg';
 import { AppRoutes } from '../../models/enums/routes.enum';
@@ -18,28 +18,24 @@ export default function About() {
       </Breadcrumb>
       <div className="white-background content-container">
         <div>
-          <Typography.Title className="margin-bottom" level={2}>
+          <Typography.Title className="our-team-title" level={2}>
             {fr.ourTeam.title}
           </Typography.Title>
-          <Row>
-            <Col className="flex-center" xs={24} lg={15}>
-              <Image
-                className="group-img"
-                preview={false}
-                src={studentsGroup}
-              />
-            </Col>
-            <Col className="padding flex-center" xs={24} lg={9}>
-              <p className="text-justify">{fr.ourTeam.text}</p>
-            </Col>
-          </Row>
+          <div className="flex-center">
+            <Image className="group-img" preview={false} src={studentsGroup} />
+          </div>
+          <div className="about-us-section">
+            <p>{fr.ourTeam.text}</p>
+          </div>
         </div>
 
         <div>
           <Typography.Title className="our-mission-title" level={2}>
             {fr.ourMission.title}
           </Typography.Title>
-          <p>{fr.ourMission.text}</p>
+          <p>{fr.ourMission.p1}</p>
+          <p>{fr.ourMission.p2}</p>
+          <p>{fr.ourMission.p3}</p>
         </div>
       </div>
     </div>

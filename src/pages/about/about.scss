@@ -1,4 +1,9 @@
 .about {
+  .about-us-section {
+    display: flex;
+    flex-direction: column;
+  }
+
   .padding {
     padding: 0px 20px 0px 30px;
   }
@@ -7,8 +12,8 @@
     border-radius: 8px;
   }
 
-  .margin-bottom {
-    margin-bottom: 20px;
+  .our-team-title {
+    margin: 0 0 20px 0;
   }
 
   .our-mission-title {

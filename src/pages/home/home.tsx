@@ -40,7 +40,7 @@ export default function Home() {
             className="flex-center home-cols"
             style={{ flexDirection: 'column' }}>
             <p style={{ fontWeight: 500, fontStyle: 'italic' }}>{fr.quote}</p>
-            <p style={{ marginTop: '10px' }}>{fr.quoteFrom}</p>
+            <div className="quote-from">{fr.quoteFrom}</div>
           </Col>
         </Row>
       </div>

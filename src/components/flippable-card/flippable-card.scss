@@ -1,4 +1,7 @@
 .flippable-card {
+  display: flex;
+  height: 100%;
+
   .card {
     perspective: 40rem;
     display: flex;
