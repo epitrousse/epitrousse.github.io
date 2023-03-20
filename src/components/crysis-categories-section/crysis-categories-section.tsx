@@ -7,7 +7,6 @@ import imgTonicoClonic from '../../assets/img/about-epilepsy/tonico-clonic-crysi
 import { BulletWithSubBullets } from '../../models/bulletWithSubBullets';
 import Bullets from '../bullets/bullets';
 import GeneralizedCrysisTypeModal from '../generalized-crysis-type-modal/generalized-crysis-type-modal';
-import imgFocalCrysis2 from './../../assets/img/about-epilepsy/focal-crysis-2.jpg';
 import './crysis-categories-section.scss';
 import { fr } from './i18n/fr';
 
@@ -36,10 +35,7 @@ export default function CrysisCategoriesSection(
   const displayFocalCrysis = () => (
     <>
       <Typography.Title level={3}>{props.focalTitle}</Typography.Title>
-      <div>
-        <img className="floatRight focalCrysisImg" src={imgFocalCrysis2} />
-        <Bullets bullets={props.focalBullets} />
-      </div>
+      <Bullets bullets={props.focalBullets} />
     </>
   );
 
