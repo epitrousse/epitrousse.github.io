@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.4f2661b1.css",
-    "main.js": "/static/js/main.6336e89b.js",
+    "main.css": "/static/css/main.8585e81c.css",
+    "main.js": "/static/js/main.d88b202f.js",
     "static/media/brain.png": "/static/media/brain.276acc8ac173060ee07c.png",
     "static/media/crysis-diary.pdf": "/static/media/crysis-diary.03942c073284de8db7a0.pdf",
     "static/media/myoclonic-crysis.png": "/static/media/myoclonic-crysis.b3dcc9b3b5af21850e42.png",
     "static/media/absence.png": "/static/media/absence.e9d9d19415ab39d98824.png",
     "static/media/tonico-clonic-crysis.png": "/static/media/tonico-clonic-crysis.7924d8792fe65a2888e3.png",
-    "static/media/group.jpg": "/static/media/group.c2157fcb178ea7deabe6.jpg",
+    "static/media/group.jpg": "/static/media/group.f37a398cbb9652fad2bb.jpg",
     "static/media/psychosocial.png": "/static/media/psychosocial.951c117626c0506eb340.png",
     "static/media/atonic-crysis.png": "/static/media/atonic-crysis.8da34bd7e8b5ac70e0a5.png",
     "static/media/alcool.png": "/static/media/alcool.0130daa35ae164cb1a87.png",
@@ -38,11 +38,11 @@
     "static/media/topic-1.jpg": "/static/media/topic-1.9264ae873fbf995b1fc9.jpg",
     "static/media/causes.jpg": "/static/media/causes.c413ed5b74cff4537a70.jpg",
     "index.html": "/index.html",
-    "main.4f2661b1.css.map": "/static/css/main.4f2661b1.css.map",
-    "main.6336e89b.js.map": "/static/js/main.6336e89b.js.map"
+    "main.8585e81c.css.map": "/static/css/main.8585e81c.css.map",
+    "main.d88b202f.js.map": "/static/js/main.d88b202f.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f2661b1.css",
-    "static/js/main.6336e89b.js"
+    "static/css/main.8585e81c.css",
+    "static/js/main.d88b202f.js"
   ]
 }
