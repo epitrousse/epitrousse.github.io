@@ -27,6 +27,9 @@ import Kit from './pages/kit/kit';
 import MythsAndFacts from './pages/myths-and-facts/myths-and-facts';
 import Resources from './pages/resources/resources';
 import Tools from './pages/tools/tools';
+import AlternativeTreatment from './pages/treatments/pages/alternative-treatment/alternative-treatment';
+import DrugsTreatment from './pages/treatments/pages/drugs-treatment/drugs-treatment';
+import SurgeryTreatment from './pages/treatments/pages/surgery-treatment/surgery-treatment';
 import Treatments from './pages/treatments/treatments';
 
 const getElement = (content) => (
@@ -144,5 +147,17 @@ export const router = createBrowserRouter([
   {
     path: AppRoutes.Treatments,
     element: getElement(<Treatments />)
+  },
+  {
+    path: AppRoutes.DrugsTreatments,
+    element: getElement(<DrugsTreatment />)
+  },
+  {
+    path: AppRoutes.SurgeryTreatments,
+    element: getElement(<SurgeryTreatment />)
+  },
+  {
+    path: AppRoutes.AlternativeTreatments,
+    element: getElement(<AlternativeTreatment />)
   }
 ]);

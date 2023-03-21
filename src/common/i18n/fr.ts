@@ -6,5 +6,6 @@ export const fr = {
   home: `Accueil`,
   impacts: `Impacts`,
   adult: `Adulte`,
-  children: `Enfant`
+  children: `Enfant`,
+  treatments: `Traitements`
 };

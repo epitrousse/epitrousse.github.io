@@ -1,4 +1,10 @@
+import { CrysisType } from '../../../models/enums/crysis-type.enum';
+
 export const fr = {
+  type: {
+    [CrysisType.Focal]: `Crise focale`,
+    [CrysisType.Generalized]: `Crise généralisée`
+  },
   generalizedCrysisCategories: {
     atonic: {
       type: `Crise atonique`,

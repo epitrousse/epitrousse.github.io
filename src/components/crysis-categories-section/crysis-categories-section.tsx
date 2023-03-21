@@ -2,18 +2,16 @@ import { Col, Row, Typography } from 'antd';
 import { ReactNode, useState } from 'react';
 import imgAbsence from '../../assets/img/about-epilepsy/absence.png';
 import imgAtonic from '../../assets/img/about-epilepsy/atonic-crysis.png';
+import imgFocalCrysis from '../../assets/img/about-epilepsy/focal-crysis.png';
+import imgGeneralizedCrysis from '../../assets/img/about-epilepsy/generalized-crysis.png';
 import imgMyoclonic from '../../assets/img/about-epilepsy/myoclonic-crysis.png';
 import imgTonicoClonic from '../../assets/img/about-epilepsy/tonico-clonic-crysis.png';
 import { BulletWithSubBullets } from '../../models/bulletWithSubBullets';
+import { CrysisType } from '../../models/enums/crysis-type.enum';
 import Bullets from '../bullets/bullets';
 import GeneralizedCrysisTypeModal from '../generalized-crysis-type-modal/generalized-crysis-type-modal';
 import './crysis-categories-section.scss';
 import { fr } from './i18n/fr';
-
-enum CrysisType {
-  Generalized = 'Generalized',
-  Focal = 'Focal'
-}
 
 interface CrysisCatgegoriesSectionProps {
   focalBullets: (string | BulletWithSubBullets)[];
@@ -83,20 +81,20 @@ export default function CrysisCategoriesSection(
     </>
   );
 
-  const displayCrysisCategory = (imgClass, crysis) => (
+  const displayCrysisCategory = (imgSource, crysis) => (
     <div
-      className={`box ${imgClass} ${crysis === crysisToDisplay && 'selected'}`}
-      onClick={() => setCrysisToDisplay(crysis)}></div>
+      className={`box ${crysis === crysisToDisplay && 'selected'}`}
+      onClick={() => setCrysisToDisplay(crysis)}>
+      <img className="crysis-img" src={imgSource} />
+      <Typography.Text strong>{fr.type[crysis]}</Typography.Text>
+    </div>
   );
 
   return (
     <div className="crysis-categories-section">
       <div className="crysisCategories">
-        {displayCrysisCategory('focalCrysisBackground', CrysisType.Focal)}
-        {displayCrysisCategory(
-          'generalizedCrysisBackground',
-          CrysisType.Generalized
-        )}
+        {displayCrysisCategory(imgFocalCrysis, CrysisType.Focal)}
+        {displayCrysisCategory(imgGeneralizedCrysis, CrysisType.Generalized)}
       </div>
       <>{CrysisType.Focal === crysisToDisplay && displayFocalCrysis()}</>
       <>

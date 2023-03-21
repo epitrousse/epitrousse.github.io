@@ -6,10 +6,13 @@
 
   .box {
     cursor: pointer;
-    height: 250px;
     width: 250px;
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
   }
 
   .box:hover,
@@ -18,12 +21,11 @@
     border-bottom: #ff7a45 solid 2px;
   }
 
-  .focalCrysisBackground {
-    background-image: url('../../assets/img/about-epilepsy/focal-crysis.png');
-    margin-right: 20px;
+  .focalCrysisImg {
+    width: 250px;
   }
 
-  .generalizedCrysisBackground {
-    background-image: url('../../assets/img/about-epilepsy/generalized-crysis.png');
+  .crysis-img {
+    width: 250px;
   }
 }
