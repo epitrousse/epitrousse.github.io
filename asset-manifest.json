@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.8585e81c.css",
-    "main.js": "/static/js/main.d88b202f.js",
+    "main.css": "/static/css/main.f5a615fc.css",
+    "main.js": "/static/js/main.8583f40e.js",
+    "static/media/drugs-treatments.jpg": "/static/media/drugs-treatments.0da5456772720e0e28bb.jpg",
     "static/media/brain.png": "/static/media/brain.276acc8ac173060ee07c.png",
+    "static/media/surgery-treatments.jpg": "/static/media/surgery-treatments.592a1afdcf497a4d1d22.jpg",
     "static/media/crysis-diary.pdf": "/static/media/crysis-diary.03942c073284de8db7a0.pdf",
     "static/media/myoclonic-crysis.png": "/static/media/myoclonic-crysis.b3dcc9b3b5af21850e42.png",
     "static/media/absence.png": "/static/media/absence.e9d9d19415ab39d98824.png",
@@ -12,22 +14,22 @@
     "static/media/atonic-crysis.png": "/static/media/atonic-crysis.8da34bd7e8b5ac70e0a5.png",
     "static/media/alcool.png": "/static/media/alcool.0130daa35ae164cb1a87.png",
     "static/media/entertaining.png": "/static/media/entertaining.795f43d9af2c53f37dab.png",
-    "static/media/generalized-crysis.png": "/static/media/generalized-crysis.91ce788538da3f539dc6.png",
     "static/media/work.png": "/static/media/work.106b2b067c2fc2aa8a28.png",
     "static/media/driving.png": "/static/media/driving.c50d63a527576c222c0f.png",
     "static/media/parenthood.png": "/static/media/parenthood.c14ec1767bc337b14118.png",
     "static/media/school.png": "/static/media/school.90f279abc0ab22d94063.png",
-    "static/media/focal-crysis.png": "/static/media/focal-crysis.55c05d74c4d84666de08.png",
-    "static/media/focal-crysis-2.jpg": "/static/media/focal-crysis-2.1856a86fabf1b63ac07b.jpg",
     "static/media/life-insurance.png": "/static/media/life-insurance.c1aa4658ab6399648e6b.png",
+    "static/media/generalized-crysis.png": "/static/media/generalized-crysis.ce38592f648cc7c98a46.png",
     "static/media/sexuality.png": "/static/media/sexuality.25b955911b4342a0d045.png",
     "static/media/sport.png": "/static/media/sport.7379598829150d014ece.png",
     "static/media/sleep.png": "/static/media/sleep.6577abe28751ff36b0ef.png",
     "static/media/child.png": "/static/media/child.02d9f9b797496483879c.png",
+    "static/media/focal-crysis.png": "/static/media/focal-crysis.4da004a19d5660466f71.png",
     "static/media/memory.png": "/static/media/memory.df32e76a126d91870346.png",
     "static/media/home-2.jpg": "/static/media/home-2.7925c5f350d2047b4727.jpg",
     "static/media/adult.png": "/static/media/adult.9baeb81a2d1f812b5a9a.png",
     "static/media/rdv-preparation.pdf": "/static/media/rdv-preparation.62938189e0fe6629d3c7.pdf",
+    "static/media/alternative-treatments.jpg": "/static/media/alternative-treatments.01f051b3906333381c24.jpg",
     "static/media/topic-3.jpg": "/static/media/topic-3.1456ddcbf094dc8ded13.jpg",
     "static/media/home-3.jpg": "/static/media/home-3.2400a46f71c796e00b7a.jpg",
     "static/media/topic-2.jpg": "/static/media/topic-2.9062f7d342ded3b006c5.jpg",
@@ -38,11 +40,11 @@
     "static/media/topic-1.jpg": "/static/media/topic-1.9264ae873fbf995b1fc9.jpg",
     "static/media/causes.jpg": "/static/media/causes.c413ed5b74cff4537a70.jpg",
     "index.html": "/index.html",
-    "main.8585e81c.css.map": "/static/css/main.8585e81c.css.map",
-    "main.d88b202f.js.map": "/static/js/main.d88b202f.js.map"
+    "main.f5a615fc.css.map": "/static/css/main.f5a615fc.css.map",
+    "main.8583f40e.js.map": "/static/js/main.8583f40e.js.map"
   },
   "entrypoints": [
-    "static/css/main.8585e81c.css",
-    "static/js/main.d88b202f.js"
+    "static/css/main.f5a615fc.css",
+    "static/js/main.8583f40e.js"
   ]
 }
