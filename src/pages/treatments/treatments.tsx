@@ -12,7 +12,7 @@ import { fr } from './i18n/fr';
 import './treatments.scss';
 
 export default function Treatments() {
-  const navigate = useNavigate();
+  const navigateTo = useNavigate();
 
   const displayCard = (img, title, route) => (
     <Col span={6} className="flex-center">
@@ -20,7 +20,7 @@ export default function Treatments() {
         className="treatment-card"
         hoverable
         cover={<img src={img} />}
-        onClick={() => navigate(route)}>
+        onClick={() => navigateTo(route)}>
         <Meta title={title} />
       </Card>
     </Col>
