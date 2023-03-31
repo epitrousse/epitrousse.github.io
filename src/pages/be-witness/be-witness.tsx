@@ -1,6 +1,6 @@
 import { Breadcrumb, Typography } from 'antd';
 import { Link } from 'react-router-dom';
-import topic2 from '../../assets/img/topic-2.jpg';
+import topic2 from '../../assets/img/kit/topic-2.jpg';
 import Bullets from '../../components/bullets/bullets';
 import CrysisCategoriesSection from '../../components/crysis-categories-section/crysis-categories-section';
 import TitleSectionKit from '../../components/title-section-kit/title-section-kit';

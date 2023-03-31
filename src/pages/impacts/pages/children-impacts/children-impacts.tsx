@@ -15,7 +15,7 @@ export default function ChildrenImpacts() {
   const navigate = useNavigate();
 
   const displayCard = (img, title, route) => (
-    <Col span={6} className="flex-center">
+    <Col xs={12} md={6} className="flex-center">
       <Card
         className="impact-card"
         hoverable

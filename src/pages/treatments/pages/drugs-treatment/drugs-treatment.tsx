@@ -1,4 +1,4 @@
-import { Breadcrumb, Typography } from 'antd';
+import { Breadcrumb, Collapse, Typography } from 'antd';
 import { Link } from 'react-router-dom';
 import drugsTreatmentImg from '../../../../assets/img/treatments/drugs-treatments.jpg';
 import { fr as commonFr } from '../../../../common/i18n/fr';
@@ -27,19 +27,51 @@ export default function DrugsTreatment() {
       </Breadcrumb>
       <div className="white-background content-container">
         <p>{fr.s1.p1}</p>
-        <Typography.Title level={2}>{fr.s2.title}</Typography.Title>
-        <p>{fr.s2.p1}</p>
-        <Bullets bullets={fr.s3.bullets} />
-        <Typography.Title level={2}>{fr.s4.title}</Typography.Title>
-        <Bullets bullets={fr.s4.bullets} />
-        <Typography.Title level={2}>{fr.s5.title}</Typography.Title>
-        <p>{fr.s5.p1}</p>
-        <p>{fr.s5.p2}</p>
-        <Typography.Title level={2}>{fr.s6.title}</Typography.Title>
-        <p>{fr.s6.p1}</p>
-        <p>{fr.s6.p2}</p>
-        <Typography.Title level={2}>{fr.s7.title}</Typography.Title>
-        <p>{fr.s7.p1}</p>
+
+        <Collapse accordion ghost>
+          <Collapse.Panel
+            header={
+              <Typography.Title level={2}>{fr.s2.title}</Typography.Title>
+            }
+            key="1">
+            <p>{fr.s2.p1}</p>
+            <Bullets bullets={fr.s2.bullets} />
+          </Collapse.Panel>
+
+          <Collapse.Panel
+            header={
+              <Typography.Title level={2}>{fr.s3.title}</Typography.Title>
+            }
+            key="2">
+            <Bullets bullets={fr.s3.bullets} />
+          </Collapse.Panel>
+
+          <Collapse.Panel
+            header={
+              <Typography.Title level={2}>{fr.s4.title}</Typography.Title>
+            }
+            key="3">
+            <p>{fr.s4.p1}</p>
+            <p>{fr.s4.p2}</p>
+          </Collapse.Panel>
+
+          <Collapse.Panel
+            header={
+              <Typography.Title level={2}>{fr.s5.title}</Typography.Title>
+            }
+            key="4">
+            <p>{fr.s5.p1}</p>
+            <p>{fr.s5.p2}</p>
+          </Collapse.Panel>
+
+          <Collapse.Panel
+            header={
+              <Typography.Title level={2}>{fr.s6.title}</Typography.Title>
+            }
+            key="5">
+            <p>{fr.s6.p1}</p>
+          </Collapse.Panel>
+        </Collapse>
       </div>
     </div>
   );

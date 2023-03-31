@@ -18,14 +18,30 @@
   .box:hover,
   .box:focus,
   .box.selected {
-    border-bottom: #ff7a45 solid 2px;
-  }
-
-  .focalCrysisImg {
-    width: 250px;
+    border-bottom: #ff735c solid 2px;
   }
 
   .crysis-img {
     width: 250px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .box {
+      width: 150px;
+    }
+
+    .crysis-img {
+      width: 150px;
+    }
+  }
+
+  @media only screen and (max-width: 430px) {
+    .box {
+      width: 130px;
+    }
+
+    .crysis-img {
+      width: 130px;
+    }
   }
 }

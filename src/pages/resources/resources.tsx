@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { AppRoutes } from '../../models/enums/routes.enum';
 import { fr as commonFr } from './../../common/i18n/fr';
 import { fr } from './i18n/fr';
+import './resources.scss';
 
 export default function Resources() {
   const items: TabsProps['items'] = [
@@ -25,7 +26,7 @@ export default function Resources() {
   ];
 
   return (
-    <div className="max-viewport-width margin-page-view">
+    <div className="max-viewport-width margin-page-view resources">
       <Typography.Title level={1}>{fr.title}</Typography.Title>
       <Breadcrumb separator=">">
         <Breadcrumb.Item>

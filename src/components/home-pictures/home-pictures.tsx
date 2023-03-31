@@ -1,7 +1,7 @@
 import { Carousel, Col, Image, Row } from 'antd';
-import home1 from '../../assets/img/home-1.jpg';
-import home2 from '../../assets/img/home-2.jpg';
-import home3 from '../../assets/img/home-3.jpg';
+import home1 from '../../assets/img/home/home-1.jpg';
+import home2 from '../../assets/img/home/home-2.jpg';
+import home3 from '../../assets/img/home/home-3.jpg';
 import useWindowDimensions from '../../hooks/use-window-dimensions.hook';
 
 export default function HomePictures() {
@@ -23,7 +23,7 @@ export default function HomePictures() {
   );
 
   const displaySideBySideImages = () => (
-    <Row gutter={8} style={{ width: '100%', margin: '0' }}>
+    <Row gutter={8} style={{ width: '100%', margin: '5px 0 0 0' }}>
       <Col span={8} style={{ paddingLeft: '0' }}>
         {displayImage(home1)}
       </Col>

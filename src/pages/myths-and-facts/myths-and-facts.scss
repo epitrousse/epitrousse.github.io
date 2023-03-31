@@ -1,7 +1,11 @@
-.myths-and-fact-card-col {
-  min-height: 296px;
-}
+.myths-and-facts {
+  text-align: center;
 
-.cards {
-  display: flex;
+  .myths-and-fact-card-col {
+    min-height: 296px;
+  }
+
+  .cards {
+    display: flex;
+  }
 }

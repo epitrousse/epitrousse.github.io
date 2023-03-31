@@ -1,6 +1,6 @@
 import { Breadcrumb, Col, Row } from 'antd';
 import { Link } from 'react-router-dom';
-import topic5 from '../../assets/img/topic-5.jpg';
+import topic5 from '../../assets/img/kit/topic-5.jpg';
 import Bullets from '../../components/bullets/bullets';
 import FlippableCard from '../../components/flippable-card/flippable-card';
 import TitleSectionKit from '../../components/title-section-kit/title-section-kit';
@@ -26,7 +26,7 @@ export default function MythsAndFacts() {
   );
 
   return (
-    <div className="max-viewport-width margin-page-view">
+    <div className=" myths-and-facts max-viewport-width margin-page-view">
       <TitleSectionKit imgTopic={topic5} title={fr.title}></TitleSectionKit>
       <Breadcrumb separator=">">
         <Breadcrumb.Item>

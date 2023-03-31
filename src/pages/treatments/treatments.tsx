@@ -1,7 +1,7 @@
 import { Breadcrumb, Card, Col, Row } from 'antd';
 import Meta from 'antd/es/card/Meta';
 import { Link, useNavigate } from 'react-router-dom';
-import topic3 from '../../assets/img/topic-3.jpg';
+import topic3 from '../../assets/img/kit/topic-3.jpg';
 import alternativeImg from '../../assets/img/treatments/alternative-treatments.jpg';
 import drugsImg from '../../assets/img/treatments/drugs-treatments.jpg';
 import surgeryImg from '../../assets/img/treatments/surgery-treatments.jpg';
@@ -15,7 +15,7 @@ export default function Treatments() {
   const navigateTo = useNavigate();
 
   const displayCard = (img, title, route) => (
-    <Col span={6} className="flex-center">
+    <Col xs={12} md={6} className="flex-center">
       <Card
         className="treatment-card"
         hoverable

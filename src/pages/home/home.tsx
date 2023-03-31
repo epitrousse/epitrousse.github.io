@@ -1,6 +1,7 @@
 import { Button, Col, Divider, Row, Space, Typography } from 'antd';
 import { Link } from 'react-router-dom';
 import '../../app.scss';
+import briefcaseImg from '../../assets/img/home/briefcase.png';
 import HomePictures from '../../components/home-pictures/home-pictures';
 import './home.scss';
 import { fr } from './i18n/fr';
@@ -17,7 +18,12 @@ export default function Home() {
         <Typography.Title className="home-title">{fr.welcome}</Typography.Title>
         <p className="home-description">{fr.intro}</p>
         <Button size="large" type="primary" style={{ marginBottom: '40px' }}>
-          <Link to="/trousse">{fr.goToKit}</Link>
+          <div className="goToKitButton">
+            <img className="briefcase" src={briefcaseImg}></img>
+            <Link className="linkToKit" to="/trousse">
+              {fr.goToKit}
+            </Link>
+          </div>
         </Button>
       </Space>
       <Divider
@@ -39,7 +45,7 @@ export default function Home() {
             sm={11}
             className="flex-center home-cols"
             style={{ flexDirection: 'column' }}>
-            <p style={{ fontWeight: 500, fontStyle: 'italic' }}>{fr.quote}</p>
+            <p style={{ fontStyle: 'italic' }}>{fr.quote}</p>
             <div className="quote-from">{fr.quoteFrom}</div>
           </Col>
         </Row>

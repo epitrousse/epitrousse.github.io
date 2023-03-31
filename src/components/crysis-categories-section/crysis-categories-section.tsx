@@ -44,7 +44,7 @@ export default function CrysisCategoriesSection(
       </Typography.Title>
       <p>{props.generalizedCrysisText}</p>
       <Row style={{ width: 'fit-content' }} gutter={[16, 16]}>
-        <Col className="flex-center" xs={24} sm={12} lg={6}>
+        <Col className="flex-center" xs={12} sm={12} lg={6}>
           <GeneralizedCrysisTypeModal
             title={fr.generalizedCrysisCategories.absence.title}
             bullets={props.absenceBullets}
@@ -52,7 +52,7 @@ export default function CrysisCategoriesSection(
             img={imgAbsence}
           />
         </Col>
-        <Col className="flex-center" xs={24} sm={12} lg={6}>
+        <Col className="flex-center" xs={12} sm={12} lg={6}>
           <GeneralizedCrysisTypeModal
             title={fr.generalizedCrysisCategories.tonicoClonic.title}
             bullets={props.tonicoClonicBullets}
@@ -60,7 +60,7 @@ export default function CrysisCategoriesSection(
             img={imgTonicoClonic}
           />
         </Col>
-        <Col className="flex-center" xs={24} sm={12} lg={6}>
+        <Col className="flex-center" xs={12} sm={12} lg={6}>
           <GeneralizedCrysisTypeModal
             title={fr.generalizedCrysisCategories.atonic.title}
             bullets={props.atonicBullets}
@@ -68,7 +68,7 @@ export default function CrysisCategoriesSection(
             img={imgAtonic}
           />
         </Col>
-        <Col className="flex-center" xs={24} sm={12} lg={6}>
+        <Col className="flex-center" xs={12} sm={12} lg={6}>
           <GeneralizedCrysisTypeModal
             title={fr.generalizedCrysisCategories.myoclonic.title}
             bullets={props.myoclonicBullets}

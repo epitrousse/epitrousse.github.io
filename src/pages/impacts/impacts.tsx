@@ -3,7 +3,7 @@ import Meta from 'antd/es/card/Meta';
 import { Link, useNavigate } from 'react-router-dom';
 import adultImg from '../../assets/img/impacts/adult.png';
 import childrenImg from '../../assets/img/impacts/child.png';
-import topic4 from '../../assets/img/topic-4.jpg';
+import topic4 from '../../assets/img/kit/topic-4.jpg';
 import TitleSectionKit from '../../components/title-section-kit/title-section-kit';
 import { AppRoutes } from '../../models/enums/routes.enum';
 import { fr as commonFr } from './../../common/i18n/fr';
@@ -14,7 +14,7 @@ export default function Impacts() {
   const navigate = useNavigate();
 
   const displayCard = (img, title, route) => (
-    <Col span={6} className="flex-center">
+    <Col xs={12} md={6} className="flex-center">
       <Card
         className="impact-card"
         hoverable

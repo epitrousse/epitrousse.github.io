@@ -1,6 +1,6 @@
 import { Breadcrumb } from 'antd';
 import { Link } from 'react-router-dom';
-import topic6 from '../../assets/img/topic-6.jpg';
+import topic6 from '../../assets/img/kit/topic-6.jpg';
 import TitleSectionKit from '../../components/title-section-kit/title-section-kit';
 import { AppRoutes } from '../../models/enums/routes.enum';
 import crysisDiaryPdf from './../../assets/pdf/crysis-diary.pdf';

@@ -42,32 +42,32 @@
 
   .background-layer {
     height: 100%;
-    background-color: rgba(255, 122, 69, 0.85);
+    background-color: rgba(255, 122, 69, 0.75);
     width: 100%;
   }
 
   .topic-1 {
-    background-image: url('../../assets/img/topic-1.jpg');
+    background-image: url('../../assets/img/kit/topic-1.jpg');
   }
 
   .topic-2 {
-    background-image: url('../../assets/img/topic-2.jpg');
+    background-image: url('../../assets/img/kit/topic-2.jpg');
   }
 
   .topic-3 {
-    background-image: url('../../assets/img/topic-3.jpg');
+    background-image: url('../../assets/img/kit/topic-3.jpg');
   }
 
   .topic-4 {
-    background-image: url('../../assets/img/topic-4.jpg');
+    background-image: url('../../assets/img/kit/topic-4.jpg');
   }
 
   .topic-5 {
-    background-image: url('../../assets/img/topic-5.jpg');
+    background-image: url('../../assets/img/kit/topic-5.jpg');
   }
 
   .topic-6 {
-    background-image: url('../../assets/img/topic-6.jpg');
+    background-image: url('../../assets/img/kit/topic-6.jpg');
   }
 
   .topic-title {
@@ -80,6 +80,10 @@
   @media only screen and (max-width: 435px) {
     .box {
       height: 180px;
+    }
+
+    .white-container {
+      padding: 1rem;
     }
   }
 }

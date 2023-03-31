@@ -9,7 +9,7 @@ export default function App() {
     <ConfigProvider
       theme={{
         token: {
-          colorPrimary: '#ff7a45',
+          colorPrimary: '#ff735c',
           fontSize: 16,
           fontSizeHeading1: 30,
           fontSizeHeading2: 22,

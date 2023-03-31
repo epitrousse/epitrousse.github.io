@@ -42,6 +42,16 @@ export const fr = {
     }
   },
   category4: {
+    title: `Comment diagnostique-t-on l’épilepsie?`,
+    p1: `Une personne atteinte de l’épilepsie présente au moins un des critères suivants :`,
+    bullets: [
+      `Avoir eu au moins 2 crises épileptiques spontanées (non-provoquées) à plus de 24h d’intervalle.`,
+      `Avoir eu une première crise épileptique spontanée et être à grand risque d’en refaire une autre (probabilité de plus de 60% de la survenue d’une autre crise sur une période de 10 ans).`,
+      `Avoir reçu un diagnostic de syndrome épileptique.`
+    ],
+    p2: `Comme aucun test ne permet de l’établir systématiquement avec certitude, le diagnostic d’épilepsie peut parfois être difficile à poser. Pour ce faire, les médecins se basent souvent avant tout sur l’histoire et la description des symptômes survenant durant les crises ainsi que sur un examen clinique du patient. Certains examens supplémentaires sont souvent prescrits. Parmi eux, on retrouve fréquemment l’EEG (ou électroencéphalogramme) qui permet d’enregistrer l’activité du cerveau, l’IRM (un type d’imagerie médicale qui permet de bien voir le cerveau), ou encore des prises de sang ou des analyses d'urine. Ces tests permettent de confirmer ou de renforcer la suspicion de diagnostic d’épilepsie et d’éliminer d’autres conditions qui pourraient lui ressembler. Dans certains cas où le diagnostic reste incertain, le médecin peut également proposer au patient une hospitalisation de quelques jours durant laquelle il sera monitoré par EEG et surveillance vidéo. Durant ce séjour à l'hôpital, on tente d’enregistrer simultanément les symptômes du patients et l’activité électrique dans son cerveau pendant une crise. La combinaison de ces informations permet aux neurologues de différencier une crise épileptique d’une crise non épileptique, et les aide à déterminer la région du cerveau impliquée dans l'initiation des crises pour déterminer le meilleur traitement pour le patient.`
+  },
+  category5: {
     title: `Est-ce qu’il existe différents types d’épilepsie?`,
     p1: `Oui! Les symptômes ressentis lors de la crise diffèrent selon la région du cerveau affectée. Les symptômes changent donc d’une personne à l’autre. On classe l’épilepsie en deux catégories (crises focales et crises généralisées). Pour en savoir plus, cliquez sur la catégorie qui vous intéresse : `,
     ss1: {

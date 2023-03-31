@@ -1,6 +1,6 @@
 import { Breadcrumb, Collapse, Image, Typography } from 'antd';
 import { Link } from 'react-router-dom';
-import topic1 from '../../assets/img/topic-1.jpg';
+import topic1 from '../../assets/img/kit/topic-1.jpg';
 import Bullets from '../../components/bullets/bullets';
 import CrysisCategoriesSection from '../../components/crysis-categories-section/crysis-categories-section';
 import TitleSectionKit from '../../components/title-section-kit/title-section-kit';
@@ -88,15 +88,27 @@ export default function AboutEpilepsy() {
             }
             key="4">
             <p>{fr.category4.p1}</p>
+            <Bullets bullets={fr.category4.bullets} />
+            <p>{fr.category4.p2}</p>
+          </Collapse.Panel>
+
+          <Collapse.Panel
+            header={
+              <Typography.Title level={2}>
+                {fr.category5.title}
+              </Typography.Title>
+            }
+            key="5">
+            <p>{fr.category5.p1}</p>
             <CrysisCategoriesSection
-              focalTitle={fr.category4.ss1.title}
-              focalBullets={fr.category4.ss1.bullets}
-              myoclonicBullets={fr.category4.ss2.sss4.bullets}
-              tonicoClonicBullets={fr.category4.ss2.sss2.bullets}
-              absenceBullets={fr.category4.ss2.sss1.bullets}
-              atonicBullets={fr.category4.ss2.sss3.bullets}
-              generalizedCrysisTitle={fr.category4.ss2.title}
-              generalizedCrysisText={fr.category4.ss2.p1}
+              focalTitle={fr.category5.ss1.title}
+              focalBullets={fr.category5.ss1.bullets}
+              myoclonicBullets={fr.category5.ss2.sss4.bullets}
+              tonicoClonicBullets={fr.category5.ss2.sss2.bullets}
+              absenceBullets={fr.category5.ss2.sss1.bullets}
+              atonicBullets={fr.category5.ss2.sss3.bullets}
+              generalizedCrysisTitle={fr.category5.ss2.title}
+              generalizedCrysisText={fr.category5.ss2.p1}
             />
           </Collapse.Panel>
         </Collapse>
