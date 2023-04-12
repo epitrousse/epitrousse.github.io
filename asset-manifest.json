@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.17700ac9.css",
-    "main.js": "/static/js/main.4b952ace.js",
+    "main.css": "/static/css/main.f7710f82.css",
+    "main.js": "/static/js/main.253071c4.js",
     "static/media/brain.png": "/static/media/brain.276acc8ac173060ee07c.png",
     "static/media/crysis-diary.pdf": "/static/media/crysis-diary.03942c073284de8db7a0.pdf",
     "static/media/myoclonic-crysis.png": "/static/media/myoclonic-crysis.b3dcc9b3b5af21850e42.png",
@@ -9,6 +9,7 @@
     "static/media/tonico-clonic-crysis.png": "/static/media/tonico-clonic-crysis.7924d8792fe65a2888e3.png",
     "static/media/group.jpg": "/static/media/group.f37a398cbb9652fad2bb.jpg",
     "static/media/atonic-crysis.png": "/static/media/atonic-crysis.8da34bd7e8b5ac70e0a5.png",
+    "static/media/what-happened.jpg": "/static/media/what-happened.18796a4be489685e8784.jpg",
     "static/media/generalized-crysis.png": "/static/media/generalized-crysis.ce38592f648cc7c98a46.png",
     "static/media/focal-crysis.png": "/static/media/focal-crysis.4da004a19d5660466f71.png",
     "static/media/rdv-preparation.pdf": "/static/media/rdv-preparation.62938189e0fe6629d3c7.pdf",
@@ -40,11 +41,11 @@
     "static/media/drugs-treatments.jpg": "/static/media/drugs-treatments.b2462cf5432fd5906bf9.jpg",
     "static/media/surgery-treatments.jpg": "/static/media/surgery-treatments.71870cb550ed82e2f488.jpg",
     "index.html": "/index.html",
-    "main.17700ac9.css.map": "/static/css/main.17700ac9.css.map",
-    "main.4b952ace.js.map": "/static/js/main.4b952ace.js.map"
+    "main.f7710f82.css.map": "/static/css/main.f7710f82.css.map",
+    "main.253071c4.js.map": "/static/js/main.253071c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.17700ac9.css",
-    "static/js/main.4b952ace.js"
+    "static/css/main.f7710f82.css",
+    "static/js/main.253071c4.js"
   ]
 }
