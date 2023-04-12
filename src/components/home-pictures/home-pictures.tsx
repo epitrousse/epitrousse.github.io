@@ -3,6 +3,7 @@ import home1 from '../../assets/img/home/home-1.jpg';
 import home2 from '../../assets/img/home/home-2.jpg';
 import home3 from '../../assets/img/home/home-3.jpg';
 import useWindowDimensions from '../../hooks/use-window-dimensions.hook';
+import './home-pictures.scss';
 
 export default function HomePictures() {
   const { width } = useWindowDimensions();
@@ -34,5 +35,5 @@ export default function HomePictures() {
     </Row>
   );
 
-  return <>{displayImages()}</>;
+  return <div className="home-pictures">{displayImages()}</div>;
 }

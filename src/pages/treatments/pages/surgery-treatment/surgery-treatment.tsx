@@ -40,7 +40,7 @@ export default function SurgeryTreatment() {
       <div className="white-background content-container">
         <p>{fr.s1.p1}</p>
 
-        <Collapse accordion ghost>
+        <Collapse ghost>
           <Collapse.Panel
             header={
               <Typography.Title level={2}>{fr.s2.title}</Typography.Title>

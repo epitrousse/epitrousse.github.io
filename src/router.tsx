@@ -1,6 +1,7 @@
 import { Layout } from 'antd';
 import { createBrowserRouter, Navigate } from 'react-router-dom';
 import Header from './components/header/header';
+import ScrollToTop from './components/scroll-to-top/scroll-to-top';
 import { AppRoutes } from './models/enums/routes.enum';
 import AboutEpilepsy from './pages/about-epilepsy/about-epilepsy';
 import About from './pages/about/about';
@@ -34,6 +35,7 @@ import Treatments from './pages/treatments/treatments';
 
 const getElement = (content) => (
   <>
+    <ScrollToTop />
     <Header />
     <Layout.Content style={{ flex: 1 }}>{content}</Layout.Content>
   </>

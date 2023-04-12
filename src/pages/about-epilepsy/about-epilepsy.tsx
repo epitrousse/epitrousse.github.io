@@ -7,6 +7,7 @@ import TitleSectionKit from '../../components/title-section-kit/title-section-ki
 import { AppRoutes } from '../../models/enums/routes.enum';
 import imgBrain from './../../assets/img/about-epilepsy/brain.png';
 import imgCauses from './../../assets/img/about-epilepsy/causes.jpg';
+import imgWhatHappened from './../../assets/img/about-epilepsy/what-happened.jpg';
 import { fr as commonFr } from './../../common/i18n/fr';
 import './about-epilepsy.scss';
 import { fr } from './i18n/fr';
@@ -25,7 +26,7 @@ export default function AboutEpilepsy() {
         <Breadcrumb.Item>{fr.title}</Breadcrumb.Item>
       </Breadcrumb>
       <div className="white-background content-container">
-        <Collapse accordion ghost>
+        <Collapse ghost>
           <Collapse.Panel
             header={
               <Typography.Title level={2}>
@@ -45,6 +46,7 @@ export default function AboutEpilepsy() {
             }
             key="2">
             <p>{fr.category2.p1}</p>
+            <Image src={imgWhatHappened}></Image>
           </Collapse.Panel>
 
           <Collapse.Panel

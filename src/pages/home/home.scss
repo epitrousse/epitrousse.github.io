@@ -48,6 +48,11 @@
 }
 
 @media only screen and (max-width: 576px) {
+  .home-cols {
+    padding: 0 2rem 0 2rem;
+    text-align: center;
+  }
+
   .home-grid-divider {
     display: none;
   }
@@ -55,5 +60,15 @@
   .messages-container {
     margin-top: 8px;
     margin-bottom: 8px;
+  }
+
+  .home-description {
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 2rem 1rem 2rem;
+  }
+
+  .home-title {
+    padding: 0 2rem 0 2rem;
   }
 }

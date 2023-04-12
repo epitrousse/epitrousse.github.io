@@ -35,7 +35,6 @@ export default function GeneralizedCrysisTypeModal({
         className="generalized-crysis-card"
         onClick={showModal}
         hoverable
-        style={{ width: 250 }}
         cover={<img src={img} />}>
         <Meta
           title={

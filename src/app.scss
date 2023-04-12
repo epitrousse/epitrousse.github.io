@@ -73,6 +73,11 @@ body {
   float: left;
 }
 
+.ant-card-meta-title {
+  white-space: initial !important;
+  text-overflow: clip !important;
+}
+
 @media only screen and (max-width: 1200px) {
   .max-viewport-width {
     width: auto;
