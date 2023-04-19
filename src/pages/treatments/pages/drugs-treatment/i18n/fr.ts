@@ -21,7 +21,12 @@ export const fr = {
       `Trouble de la mémoire`,
       `Trouble de concentration`,
       `Perte ou gain de poids`
-    ]
+    ],
+    p2: {
+      before: `Pour plus d'informations, vous pouvez consulter `,
+      after: ` présentant les effets secondaires répertoriés selon les différents médicaments.`,
+      link: `ce tableau`
+    }
   },
   s3: {
     title: `Conseils sur la médication`,
@@ -49,6 +54,11 @@ export const fr = {
   },
   s6: {
     title: `Y-a-t-il des assurances pour les médicaments?`,
-    p1: `RAMQ : Pour savoir si un médicament anti-crise générique prescrit par un médecin est remboursé par la RAMQ, visitez ce répertoire en ligne.`
+    p1Before: `Pour savoir si un médicament anti-crise générique prescrit par un médecin est remboursé par la RAMQ, visitez ce `,
+    p1After: `.`,
+    link: {
+      text: `répertoire en ligne`,
+      href: `https://www.ramq.gouv.qc.ca/fr/citoyens/assurance-medicaments/savoir-si-medicament-est-couvert`
+    }
   }
 };

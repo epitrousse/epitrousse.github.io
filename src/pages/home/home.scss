@@ -11,7 +11,7 @@
 }
 
 .home-cols {
-  padding: 2rem;
+  padding: 0 2rem 2rem 2rem;
   text-align: center;
 }
 
@@ -33,11 +33,21 @@
   .linkToKit {
     color: black;
     font-weight: 500;
+    font-size: 20px;
   }
 
   .briefcase {
     height: 24px;
     padding-right: 10px;
+  }
+}
+
+.association-group {
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 18px;
+  .association-img {
+    height: 100px;
   }
 }
 

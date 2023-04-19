@@ -14,10 +14,10 @@ interface SurgeryType {
 export default function SurgeryTreatment() {
   const displaySurgeryTypes = (surgeryTypes: SurgeryType[]) =>
     surgeryTypes.map((surgeryType) => (
-      <>
+      <div key={surgeryType.title}>
         <Typography.Title level={3}>{surgeryType.title}</Typography.Title>
         <p>{surgeryType.p1}</p>
-      </>
+      </div>
     ));
 
   return (
@@ -40,7 +40,7 @@ export default function SurgeryTreatment() {
       <div className="white-background content-container">
         <p>{fr.s1.p1}</p>
 
-        <Collapse ghost>
+        <Collapse accordion={true} ghost>
           <Collapse.Panel
             header={
               <Typography.Title level={2}>{fr.s2.title}</Typography.Title>

@@ -3,7 +3,12 @@ export const fr = {
   p1: `La conduite automobile n’est pas interdite pour les personnes atteintes d’épilepsie. Néanmoins, il faut avoir un bon contrôle des crises pour être en mesure de reprendre le volant, car les personnes souffrant d’épilepsie qui ont des crises incontrôlées ne peuvent pas obtenir leur permis de conduire pour des raisons de sécurité. La conduite automobile représente donc généralement un facteur de motivation pour les personnes atteintes d’épilepsie à respecter les recommandations de leur médecin sur le contrôle des crises.`,
   p2: `Une fois le diagnostic d’épilepsie établi, il faut que la personne atteinte d’épilepsie (et non son médecin) fasse une déclaration à la Société d’Assurance Automobile du Québec (SAAQ). Il faut ainsi attendre un délai de 6 mois sans crise avant de pouvoir être en mesure d’obtenir ou de réobtenir son permis de conduire. Selon la recommandation d’un neurologue, ce délai de restriction peut s’avérer plus court.`,
   p3: `Il est important de respecter ces réglementations, car une personne épileptique qui conduit malgré le fait que son permis de conduire ait été révoqué par la SAAQ peut subir les sanctions suivantes : saisie du véhicule, contravention (amende de 300$ à 600$), révocation du permis de conduire et accusation au criminel.`,
-  p4: `Pour d’autres informations concernant la conduite automobile, nous vous invitons à consulter l’adresse suivante : https://www.epilepsiequebec.com/WebSites/Epilepsie/Medias/La%20conduite%20automobile.pdf`,
+  p4Before: `Pour d’autres informations concernant la conduite automobile, nous vous invitons à consulter `,
+  p4After: `.`,
+  p4Link: {
+    text: `ce lien`,
+    ref: `https://www.epilepsiequebec.com/WebSites/Epilepsie/Medias/La%20conduite%20automobile.pdf`
+  },
   ss1: {
     title: `Informations spécifiques aux classes`,
     classes: {

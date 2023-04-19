@@ -2,6 +2,7 @@ import { Button, Col, Divider, Row, Space, Typography } from 'antd';
 import { Link } from 'react-router-dom';
 import '../../app.scss';
 import briefcaseImg from '../../assets/img/home/briefcase.png';
+import estrieAssociationImg from '../../assets/img/home/estrie-association.png';
 import HomePictures from '../../components/home-pictures/home-pictures';
 import './home.scss';
 import { fr } from './i18n/fr';
@@ -17,7 +18,10 @@ export default function Home() {
         size="middle">
         <Typography.Title className="home-title">{fr.welcome}</Typography.Title>
         <p className="home-description">{fr.intro}</p>
-        <Button size="large" type="primary" style={{ marginBottom: '40px' }}>
+        <Button
+          size="large"
+          type="primary"
+          style={{ marginBottom: '40px', height: 'fit-content' }}>
           <div className="goToKitButton">
             <img className="briefcase" src={briefcaseImg}></img>
             <Link className="linkToKit" to="/trousse">
@@ -34,8 +38,12 @@ export default function Home() {
         }}></Divider>
       <div className="max-viewport-width messages-container">
         <Row>
-          <Col xs={24} sm={11} className="flex-center home-cols">
-            <p>{fr.mission}</p>
+          <Col
+            xs={24}
+            sm={11}
+            className="flex-center home-cols association-group">
+            <p>{fr.collab}</p>
+            <img className="association-img" src={estrieAssociationImg}></img>
           </Col>
           <Col span={2} className="home-grid-divider flex-center">
             <Divider type="vertical" style={{ height: '100%' }} />

@@ -34,8 +34,14 @@ export const fr = {
   p4: `Nous vous rappelons que la Charte canadienne des droits et libertés interdit à un employeur de faire de la discrimination en raison de l’épilepsie. Si une personne pense être victime de discrimination, elle a le droit de faire une plainte à la Commission des droits de la personne.`,
   p5: `Néanmoins, il existe des situations où l’employeur peut refuser d’engager ou peut décider de licencier une personne dont la déficience peut compromettre la santé et/ou la sécurité de la personne en question, du public ou de ses collègues. C’est au devoir de l’employeur de démontrer comment la déficience de son employé représente un danger pour sa sécurité et/ou celle d’autrui.`,
   p6: `L’employeur a aussi le devoir de déployer des efforts considérables afin d’adapter le milieu de travail d’une personne atteinte d’épilepsie, ce qu’on appelle le devoir d’adaptation. Par exemple, l’employeur peut changer la disposition des meubles du lieu de travail ou même permettre à son employé d’échanger de travail avec un collègue.`,
-  p7: `Certaines personnes épileptiques se demandent si elles sont obligées de divulguer leur condition lorsqu’elles postulent un emploi. Ces personnes peuvent être rassurées que la décision de divulguer leur condition leur appartient. Or, il faut garder en tête qu’il existe des avantages et des inconvénients à divulguer ou non son épilepsie. Il est donc pertinent de s’informer à la Commission des droits de la personne afin de connaître ses droits, ce qui peut aider à prendre une décision plus éclairée. Le tableau de réflexion suivant présente une liste des avantages et des inconvénients à divulguer son épilepsie selon le moment de divulgation :`,
-  p8: `Association régionale pour les personnes épileptiques, rubrique conseils pratiques – au travail, Tableau de divulgation, <en ligne, https://www.arpe02.com/images/stories/document/Tableau-de-divulgation.pdf >, consulté le 10 février 2023`,
+  p7: {
+    before: `Certaines personnes épileptiques se demandent si elles sont obligées de divulguer leur condition lorsqu’elles postulent un emploi. Ces personnes peuvent être rassurées que la décision de divulguer leur condition leur appartient. Or, il faut garder en tête qu’il existe des avantages et des inconvénients à divulguer ou non son épilepsie. Il est donc pertinent de s’informer à la Commission des droits de la personne afin de connaître ses droits, ce qui peut aider à prendre une décision plus éclairée. Ce `,
+    after: ` présente une liste des avantages et des inconvénients à divulguer son épilepsie selon le moment de divulgation`,
+    link: {
+      text: `tableau de réflexion`,
+      ref: `https://www.arpe02.com/images/stories/document/Tableau-de-divulgation.pdf`
+    }
+  },
   ss1: {
     title: `Sécurité au travail`,
     p1: `Concernant la sécurité des personnes épileptiques en milieu de travail, il existe des conseils pouvant les aider à améliorer leur sécurité au travail. Voici une liste de conseils pertinents :`,

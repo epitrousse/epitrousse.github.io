@@ -3,7 +3,7 @@ import Meta from 'antd/es/card/Meta';
 import { Link, useNavigate } from 'react-router-dom';
 import topic3 from '../../assets/img/kit/topic-3.jpg';
 import alternativeImg from '../../assets/img/treatments/alternative-treatments.jpg';
-import drugsImg from '../../assets/img/treatments/drugs-treatments.jpg';
+import drugsImg from '../../assets/img/treatments/drugs.png';
 import surgeryImg from '../../assets/img/treatments/surgery-treatments.jpg';
 import TitleSectionKit from '../../components/title-section-kit/title-section-kit';
 import { AppRoutes } from '../../models/enums/routes.enum';

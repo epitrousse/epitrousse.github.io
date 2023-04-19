@@ -1,3 +1,3 @@
 export const fr = {
-  siteName: 'Epitrousse'
+  siteName: 'Épitrousse'
 };

@@ -30,6 +30,7 @@ export default function AdultPsychosocial() {
       <div className="white-background content-container">
         <p>{fr.p1}</p>
         <p>{fr.p2}</p>
+        <p>{fr.p3}</p>
       </div>
     </div>
   );

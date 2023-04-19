@@ -36,6 +36,7 @@ export default function ChildrenPsychosocial() {
         <p>{fr.p3}</p>
         <p>{fr.tips.title}</p>
         <Bullets bullets={fr.tips.bullets} />
+        <p>{fr.p4}</p>
       </div>
     </div>
   );

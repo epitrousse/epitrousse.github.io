@@ -14,10 +14,10 @@ interface AlternativeType {
 export default function AlternativeTreatment() {
   const displaySurgeryTypes = (surgeryTypes: AlternativeType[]) =>
     surgeryTypes.map((surgeryType) => (
-      <>
+      <div key={surgeryType.title}>
         <Typography.Title level={2}>{surgeryType.title}</Typography.Title>
         <p>{surgeryType.p1}</p>
-      </>
+      </div>
     ));
 
   return (

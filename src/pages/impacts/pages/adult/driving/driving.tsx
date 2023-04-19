@@ -30,7 +30,13 @@ export default function Driving() {
         <p>{fr.p1}</p>
         <p>{fr.p2}</p>
         <p>{fr.p3}</p>
-        <p>{fr.p4}</p>
+        <p>
+          <span>{fr.p4Before}</span>
+          <a href={fr.p4Link.ref} target="_blank" rel="noopener noreferrer">
+            {fr.p4Link.text}
+          </a>
+          <span>{fr.p4After}</span>
+        </p>
         <Typography.Title level={3}>{fr.ss1.title}</Typography.Title>
         <Typography.Title level={4}>
           {fr.ss1.classes.class5.p1}

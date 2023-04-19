@@ -23,5 +23,6 @@ export const fr = {
       `Éviter de verrouiller la porte de la salle de bain`,
       `Être accompagné pour les activités présentant un risque de chute ou qui sont dangereuses (ex. baignade)`
     ]
-  }
+  },
+  p4: `Pour obtenir de l’informations sur les centres près de chez vous qui offrent des services de soutien psychologique, composez le 811.`
 };

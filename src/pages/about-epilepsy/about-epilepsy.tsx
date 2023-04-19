@@ -6,7 +6,6 @@ import CrysisCategoriesSection from '../../components/crysis-categories-section/
 import TitleSectionKit from '../../components/title-section-kit/title-section-kit';
 import { AppRoutes } from '../../models/enums/routes.enum';
 import imgBrain from './../../assets/img/about-epilepsy/brain.png';
-import imgCauses from './../../assets/img/about-epilepsy/causes.jpg';
 import imgWhatHappened from './../../assets/img/about-epilepsy/what-happened.jpg';
 import { fr as commonFr } from './../../common/i18n/fr';
 import './about-epilepsy.scss';
@@ -26,7 +25,7 @@ export default function AboutEpilepsy() {
         <Breadcrumb.Item>{fr.title}</Breadcrumb.Item>
       </Breadcrumb>
       <div className="white-background content-container">
-        <Collapse ghost>
+        <Collapse accordion={true} ghost>
           <Collapse.Panel
             header={
               <Typography.Title level={2}>
@@ -62,11 +61,8 @@ export default function AboutEpilepsy() {
               {fr.category3.causes.title}
             </Typography.Title>
             <div>
-              <img className="causesImg floatRight" src={imgCauses} />
-              <div>
-                <p>{fr.category3.causes.p1}</p>
-                <p>{fr.category3.causes.p2}</p>
-              </div>
+              <p>{fr.category3.causes.p1}</p>
+              <p>{fr.category3.causes.p2}</p>
             </div>
             <div>
               <Typography.Title level={3}>

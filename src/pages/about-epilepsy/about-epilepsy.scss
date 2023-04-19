@@ -6,11 +6,6 @@
     display: block;
   }
 
-  .causesImg {
-    width: 190px;
-    padding-right: 40px;
-  }
-
   .triggersImg {
     width: 250px;
   }
@@ -24,11 +19,6 @@
   @media only screen and (max-width: 576px) {
     .ant-image {
       width: 100% !important;
-    }
-
-    .causesImg {
-      width: 150px;
-      padding-right: 0;
     }
   }
 }

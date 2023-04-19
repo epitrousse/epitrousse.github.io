@@ -37,8 +37,13 @@ export default function Work() {
         <p>{fr.p4}</p>
         <p>{fr.p5}</p>
         <p>{fr.p6}</p>
-        <p>{fr.p7}</p>
-        <p>{fr.p8}</p>
+        <p>
+          <span>{fr.p7.before}</span>
+          <a href={fr.p7.link.ref} target="_blank" rel="noopener noreferrer">
+            {fr.p7.link.text}
+          </a>
+          <span>{fr.p7.after}</span>
+        </p>
         <Typography.Title level={3}>{fr.ss1.title}</Typography.Title>
         <p>{fr.ss1.p1}</p>
         <Bullets bullets={fr.ss1.bullets} />{' '}
