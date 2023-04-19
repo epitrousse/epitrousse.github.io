@@ -24,5 +24,9 @@ export const fr = {
       `Être accompagné pour les activités présentant un risque de chute ou qui sont dangereuses (ex. baignade)`
     ]
   },
-  p4: `Pour obtenir de l’informations sur les centres près de chez vous qui offrent des services de soutien psychologique, composez le 811.`
+  p4: {
+    before: `Pour obtenir de l’informations sur les centres près de chez vous qui offrent des services de soutien psychologique, composez le 811 ou rendez-vous sur `,
+    after: `.`,
+    link: `https://www.ordrepsy.qc.ca`
+  }
 };

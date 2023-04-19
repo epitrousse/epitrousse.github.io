@@ -36,7 +36,13 @@ export default function ChildrenPsychosocial() {
         <p>{fr.p3}</p>
         <p>{fr.tips.title}</p>
         <Bullets bullets={fr.tips.bullets} />
-        <p>{fr.p4}</p>
+        <p>
+          <span>{fr.p4.before}</span>
+          <a href={fr.p4.link} target="_blank" rel="noopener noreferrer">
+            {fr.p4.link}
+          </a>
+          <span>{fr.p4.after}</span>
+        </p>{' '}
       </div>
     </div>
   );
