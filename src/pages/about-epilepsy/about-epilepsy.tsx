@@ -1,5 +1,6 @@
 import { Breadcrumb, Collapse, Image, Typography } from 'antd';
 import { Link } from 'react-router-dom';
+import triggerImg from '../../assets/img/about-epilepsy/triggers.png';
 import topic1 from '../../assets/img/kit/topic-1.jpg';
 import Bullets from '../../components/bullets/bullets';
 import CrysisCategoriesSection from '../../components/crysis-categories-section/crysis-categories-section';
@@ -70,6 +71,7 @@ export default function AboutEpilepsy() {
               </Typography.Title>
               <div>
                 <div>
+                  <img className="trigger-img" src={triggerImg} />
                   <p>{fr.category3.triggers.p1}</p>
                   <p>{fr.category3.triggers.p2}</p>
                 </div>
