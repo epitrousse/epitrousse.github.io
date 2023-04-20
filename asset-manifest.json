@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.264126a1.css",
-    "main.js": "/static/js/main.ce534054.js",
-    "static/media/brain.png": "/static/media/brain.276acc8ac173060ee07c.png",
+    "main.js": "/static/js/main.27975157.js",
     "static/media/crysis-diary.pdf": "/static/media/crysis-diary.03942c073284de8db7a0.pdf",
     "static/media/myoclonic-crysis.png": "/static/media/myoclonic-crysis.b3dcc9b3b5af21850e42.png",
     "static/media/absence.png": "/static/media/absence.e9d9d19415ab39d98824.png",
@@ -13,10 +12,11 @@
     "static/media/generalized-crysis.png": "/static/media/generalized-crysis.ce38592f648cc7c98a46.png",
     "static/media/focal-crysis.png": "/static/media/focal-crysis.4da004a19d5660466f71.png",
     "static/media/side-effects.pdf": "/static/media/side-effects.53b6c5a8570951f737ca.pdf",
+    "static/media/brain.jpg": "/static/media/brain.d396dbca920174462411.jpg",
     "static/media/rdv-preparation.pdf": "/static/media/rdv-preparation.62938189e0fe6629d3c7.pdf",
     "static/media/triggers.png": "/static/media/triggers.a2d8676b3bf1037e594a.png",
     "static/media/topic-6.png": "/static/media/topic-6.0967ab03c073d9a4bfe2.png",
-    "static/media/psychosocial.png": "/static/media/psychosocial.60ca9397cdd2eea9207d.png",
+    "static/media/psychosocial.png": "/static/media/psychosocial.c2a5030eff1ce4de6692.png",
     "static/media/home-3.jpg": "/static/media/home-3.0cf3780fcda7395daca6.jpg",
     "static/media/alcool.png": "/static/media/alcool.295fa4ab0b140b568bfb.png",
     "static/media/entertaining.png": "/static/media/entertaining.2e2c497500886ec3fc52.png",
@@ -45,10 +45,10 @@
     "static/media/driving.png": "/static/media/driving.de970ca2b5055e8763ea.png",
     "index.html": "/index.html",
     "main.264126a1.css.map": "/static/css/main.264126a1.css.map",
-    "main.ce534054.js.map": "/static/js/main.ce534054.js.map"
+    "main.27975157.js.map": "/static/js/main.27975157.js.map"
   },
   "entrypoints": [
     "static/css/main.264126a1.css",
-    "static/js/main.ce534054.js"
+    "static/js/main.27975157.js"
   ]
 }
