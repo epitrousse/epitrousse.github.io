@@ -21,7 +21,7 @@ export const fr = {
       `Trouble de la mémoire`,
       `Trouble de concentration`,
       `Perte ou gain de poids`,
-      `Éruptions cutanées avec rougeur difuse`
+      `Éruptions cutanées avec rougeur diffuse`
     ],
     p2: {
       before: `Pour plus d'informations, vous pouvez consulter `,
