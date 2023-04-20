@@ -33,7 +33,11 @@ export default function Memory() {
         <p>{fr.memoryStrategies.title}</p>
         <Bullets bullets={fr.memoryStrategies.bullets} />
         <p>{fr.brainDamage.question}</p>
-        <p>{fr.brainDamage.answer}</p>
+        <p>
+          <span>{fr.brainDamage.answerBefore}</span>
+          <Link to={AppRoutes.BeWitness}>{fr.brainDamage.link}</Link>
+          <span>{fr.brainDamage.answerAfter}</span>
+        </p>
       </div>
     </div>
   );

@@ -45,7 +45,6 @@ export default function Driving() {
         <p>{fr.ss1.classes.class5.exceptions.text}</p>
         <Bullets bullets={fr.ss1.classes.class5.exceptions.bullets} />
         <p>{fr.ss1.classes.class5.p3}</p>
-        <p>{fr.ss1.classes.class5.p4}</p>
         <Typography.Title level={4}>
           {fr.ss1.classes.class1To4.title}
         </Typography.Title>

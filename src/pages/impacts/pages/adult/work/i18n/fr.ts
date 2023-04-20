@@ -17,7 +17,8 @@ export const fr = {
       `Soudeur`,
       `Policier ou agent de sécurité devant porter une arme`,
       `Emplois qui impliquent le travail en hauteur`,
-      `Emplois qui impliquent la manipulation de produits chimiques`
+      `Emplois qui impliquent la manipulation de produits chimiques`,
+      `Emplois avec des rotations qui changent (jour, soir, nuit) ou emplois de nuit`
     ]
   },
   generalTips: {

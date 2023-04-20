@@ -28,10 +28,9 @@ export default function BeWitness() {
         <CrysisCategoriesSection
           focalTitle={fr.ss1.title}
           focalBullets={fr.ss1.bullets}
-          myoclonicBullets={fr.ss2.sss4.bullets}
+          fromAboutEpilepsy={false}
           tonicoClonicBullets={fr.ss2.sss2.bullets}
           absenceBullets={fr.ss2.sss1.bullets}
-          atonicBullets={fr.ss2.sss3.bullets}
           generalizedCrysisTitle={fr.ss2.title}
           generalizedBloc={
             <>

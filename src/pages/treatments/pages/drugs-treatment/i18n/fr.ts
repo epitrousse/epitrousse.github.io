@@ -20,7 +20,8 @@ export const fr = {
       `Irritabilité`,
       `Trouble de la mémoire`,
       `Trouble de concentration`,
-      `Perte ou gain de poids`
+      `Perte ou gain de poids`,
+      `Éruptions cutanées avec rougeur difuse`
     ],
     p2: {
       before: `Pour plus d'informations, vous pouvez consulter `,
@@ -39,7 +40,8 @@ export const fr = {
       `Demandez à votre médecin ou à votre pharmacien, avant de prendre un médicament sans ordonnance, un produit de santé naturel ou des vitamines, si c’est sécuritaire parce que ces substances peuvent interagir avec votre médication.`,
       `Informez-vous sur les effets secondaires possibles de vos médicaments et s’ils persistent pendant plusieurs semaines ou s’ils sont intolérables, consultez votre pharmacien ou votre médecin. Toutefois, évitez d’arrêter de prendre vos médicaments parce que cela peut déclencher des crises.`,
       `Utiliser une dosette pour éviter d’oublier de prendre vos médicaments.`,
-      `Créer une alarme quotidienne pour ne pas oublier de prendre sa médication.`
+      `Créer une alarme quotidienne pour ne pas oublier de prendre sa médication.`,
+      `Si vous oubliez de prendre une dose de médicament, la marche à suivre dépend du temps restant avant qu’il soit l’heure de prendre la prochaine dose. Jusqu’à environ 4h après le moment où vous deviez prendre la dose omise, vous pouvez la prendre dès que vous constatez votre oubli. Passé ce délai, ne la prenez pas et continuez de prendre votre médication comme à l’habitude en partant de la prochaine dose. Ne prenez pas de double dose pour compenser votre oubli. Si vous avez un doute concernant la possibilité ou non de prendre la dose oubliée, consultez un pharmacien ou un médecin.`
     ]
   },
   s4: {
@@ -49,7 +51,7 @@ export const fr = {
   },
   s5: {
     title: `Est-ce que les traitements médicamenteux peuvent être nuisibles pour la grossesse et l'allaitement?`,
-    p1: `Les médicaments anticonvulsivants en grossesse: Certains médicaments anticonvulsivants peuvent être néfastes pour le développement du fœtus. Ainsi, consulter votre médecin avant de tomber enceinte et il pourra ajuster votre médication afin qu’elle soit sécuritaire pour votre futur bébé.`,
+    p1: `Les médicaments anticonvulsivants en grossesse: Certains médicaments anticonvulsivants peuvent être néfastes pour le développement du fœtus. Ainsi, consulter votre médecin avant de tomber enceinte et il pourra ajuster votre médication afin qu’elle soit sécuritaire pour votre futur bébé. Les deux anticonvulsivants les plus sécuritaires au cours de la grossesse sont la lamotrigine et le lévétiracétam.`,
     p2: `Les médicaments anticonvulsivants et l’allaitement: La concentration du médicament anticonvulsivants dans le lait maternel est faible. Il est donc sécuritaire d’allaiter le bébé tout en prenant une médication antiépileptique. Or, il est possible que le bébé ait quelques effets secondaires comme de la somnolence ou de l’irritabilité. Discutez avec votre médecin afin de trouver la meilleure option pour vous.`
   },
   s6: {

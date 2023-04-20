@@ -16,13 +16,14 @@ import { fr } from './i18n/fr';
 interface CrysisCatgegoriesSectionProps {
   focalBullets: (string | BulletWithSubBullets)[];
   focalTitle: string;
-  myoclonicBullets: (string | BulletWithSubBullets)[];
+  myoclonicBullets?: (string | BulletWithSubBullets)[];
   tonicoClonicBullets: (string | BulletWithSubBullets)[];
   absenceBullets: (string | BulletWithSubBullets)[];
-  atonicBullets: (string | BulletWithSubBullets)[];
+  atonicBullets?: (string | BulletWithSubBullets)[];
   generalizedCrysisTitle: string;
   generalizedCrysisText?: string;
   generalizedBloc?: ReactNode;
+  fromAboutEpilepsy: boolean;
 }
 
 export default function CrysisCategoriesSection(
@@ -44,7 +45,11 @@ export default function CrysisCategoriesSection(
       </Typography.Title>
       <p>{props.generalizedCrysisText}</p>
       <Row style={{ width: 'fit-content' }} gutter={[16, 16]}>
-        <Col className="flex-center" xs={12} sm={12} lg={6}>
+        <Col
+          className="flex-center"
+          xs={12}
+          sm={12}
+          lg={props.fromAboutEpilepsy ? 6 : 12}>
           <GeneralizedCrysisTypeModal
             title={fr.generalizedCrysisCategories.absence.title}
             bullets={props.absenceBullets}
@@ -52,7 +57,11 @@ export default function CrysisCategoriesSection(
             img={imgAbsence}
           />
         </Col>
-        <Col className="flex-center" xs={12} sm={12} lg={6}>
+        <Col
+          className="flex-center"
+          xs={12}
+          sm={12}
+          lg={props.fromAboutEpilepsy ? 6 : 12}>
           <GeneralizedCrysisTypeModal
             title={fr.generalizedCrysisCategories.tonicoClonic.title}
             bullets={props.tonicoClonicBullets}
@@ -60,22 +69,28 @@ export default function CrysisCategoriesSection(
             img={imgTonicoClonic}
           />
         </Col>
-        <Col className="flex-center" xs={12} sm={12} lg={6}>
-          <GeneralizedCrysisTypeModal
-            title={fr.generalizedCrysisCategories.atonic.title}
-            bullets={props.atonicBullets}
-            type={fr.generalizedCrysisCategories.atonic.type}
-            img={imgAtonic}
-          />
-        </Col>
-        <Col className="flex-center" xs={12} sm={12} lg={6}>
-          <GeneralizedCrysisTypeModal
-            title={fr.generalizedCrysisCategories.myoclonic.title}
-            bullets={props.myoclonicBullets}
-            type={fr.generalizedCrysisCategories.myoclonic.type}
-            img={imgMyoclonic}
-          />
-        </Col>
+
+        {props.fromAboutEpilepsy && (
+          <Col className="flex-center" xs={12} sm={12} lg={6}>
+            <GeneralizedCrysisTypeModal
+              title={fr.generalizedCrysisCategories.atonic.title}
+              bullets={props.atonicBullets}
+              type={fr.generalizedCrysisCategories.atonic.type}
+              img={imgAtonic}
+            />
+          </Col>
+        )}
+
+        {props.fromAboutEpilepsy && (
+          <Col className="flex-center" xs={12} sm={12} lg={6}>
+            <GeneralizedCrysisTypeModal
+              title={fr.generalizedCrysisCategories.myoclonic.title}
+              bullets={props.myoclonicBullets}
+              type={fr.generalizedCrysisCategories.myoclonic.type}
+              img={imgMyoclonic}
+            />
+          </Col>
+        )}
       </Row>
       {props.generalizedBloc}
     </>

@@ -23,6 +23,8 @@ export const fr = {
   },
   brainDamage: {
     question: `Est-ce que les crises d’épilepsie peuvent endommager le cerveau ?`,
-    answer: `Les crises n’engendrent généralement pas de dommages au cerveau et l'épilepsie n’est pas associée à une baisse des capacités intellectuelles. Cependant, des dommages au cerveau peuvent arriver si la personne se cogne la tête pendant sa crise. Pour prévenir une telle occurrence ou en gérer les conséquences immédiates, voir la rubrique Qu’est-ce que je dois faire lorsque que quelqu’un est victime d’une crise devant moi.`
+    answerBefore: `Les crises n’engendrent généralement pas de dommages au cerveau et l'épilepsie n’est pas associée à une baisse des capacités intellectuelles. Cependant, des dommages au cerveau peuvent arriver si la personne se cogne la tête pendant sa crise. Pour prévenir une telle occurrence ou en gérer les conséquences immédiates, voir la rubrique `,
+    answerAfter: `.`,
+    link: `Que faire si je suis témoin d'une crise`
   }
 };

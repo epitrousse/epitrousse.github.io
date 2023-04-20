@@ -7,7 +7,7 @@ export const fr = {
     },
     fact2: {
       question: `Une personne peut-elle avaler sa langue durant une crise d’épilepsie ?`,
-      answer: `Non, il est physiquement impossible d’avaler sa langue. Toutefois, il demeure possible que la langue bloque les voies respiratoires, c’est pourquoi il faut tourner la personne sur le côté une fois les convulsions passées.`
+      answer: `Non, il est physiquement impossible d’avaler sa langue. Ne surtout pas mettre d’objets ou vos doigts dans la bouche de la personne.`
     },
     fact3: {
       question: `L’épilepsie est-elle contagieuse ?`,
@@ -23,7 +23,8 @@ export const fr = {
     },
     fact6: {
       question: `Est-ce qu’il y a un régime alimentaire particulier qui permet de réduire les crises ?`,
-      answer: `Voir section diète cétogène.`
+      answer: `Voir page`,
+      link: `traitements alternatifs`
     },
     fact7: {
       question: `Est-ce qu’une personne touchée par l’épilepsie peut vivre seule ?`,

@@ -44,7 +44,15 @@ export default function MythsAndFacts() {
           {displayCards(fr.facts.fact3.question, fr.facts.fact3.answer)}
           {displayCards(fr.facts.fact4.question, fr.facts.fact4.answer)}
           {displayCards(fr.facts.fact5.question, fr.facts.fact5.answer)}
-          {displayCards(fr.facts.fact6.question, fr.facts.fact6.answer)}
+          {displayCards(
+            fr.facts.fact6.question,
+            <>
+              <span>{fr.facts.fact6.answer}</span>
+              <Link to={AppRoutes.AlternativeTreatments}>
+                {fr.facts.fact6.link}
+              </Link>
+            </>
+          )}
           {displayCards(fr.facts.fact7.question, fr.facts.fact7.answer)}
           {displayCards(fr.facts.fact8.question, fact8Answer, 16)}
         </Row>

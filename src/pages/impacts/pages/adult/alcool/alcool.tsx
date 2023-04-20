@@ -27,6 +27,7 @@ export default function Alcool() {
       </Breadcrumb>
       <div className="white-background content-container">
         <p>{fr.p1}</p>
+        <p>{fr.p2}</p>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import { Breadcrumb } from 'antd';
 import { Link } from 'react-router-dom';
-import psychosocialImg from '../../../../../assets/img/impacts/common/psychosocial.png';
+import psychosocialImg from '../../../../../assets/img/impacts/adults/psychosocial.png';
 import { fr as commonFr } from '../../../../../common/i18n/fr';
 import TitleSectionKit from '../../../../../components/title-section-kit/title-section-kit';
 import { AppRoutes } from '../../../../../models/enums/routes.enum';

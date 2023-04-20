@@ -1,6 +1,6 @@
 import { Breadcrumb } from 'antd';
 import { Link } from 'react-router-dom';
-import psychosocialImg from '../../../../../assets/img/impacts/common/psychosocial.png';
+import psychosocialImg from '../../../../../assets/img/impacts/children/psychosocial.png';
 import { fr as commonFr } from '../../../../../common/i18n/fr';
 import Bullets from '../../../../../components/bullets/bullets';
 import TitleSectionKit from '../../../../../components/title-section-kit/title-section-kit';

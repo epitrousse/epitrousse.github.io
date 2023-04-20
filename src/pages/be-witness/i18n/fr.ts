@@ -52,42 +52,6 @@ export const fr = {
           ]
         }
       ]
-    },
-    sss3: {
-      bullets: [
-        `Ce type de crise se caractérise par une perte de conscience, une chute et une absence de mouvements.`,
-        {
-          text: `Dans une telle situation, vous devez :`,
-          bullets: [
-            `Rester avec la personne et informer les personnes autour de ce qu’il se passe en des termes rassurants;`,
-            `Attendre calmement que la crise se termine;`,
-            `Vous assurer que l’environnement immédiat de la personne soit dégagé et qu’elle ne peut pas se blesser en éloignant les objets pointus, dangereux ou les sources de chaleur;`,
-            `Si possible et sans vous blesser lorsque la personne chute, l’aider à s’allonger au sol, à distance d’un escalier, d’une rambarde ou d’autre endroit qui pourrait provoquer une chute et placer un coussin ou un objet mou sous sa tête;`,
-            `Ne surtout rien mettre dans la bouche de la personne;`,
-            `Placer délicatement la personne sur le côté pour dégager ses voies respiratoires;`,
-            `Après la crise, rester avec la personne et la rassurer, attendre qu’elle revienne à elle, l’aider à trouver un endroit où se reposer.`
-          ]
-        }
-      ]
-    },
-    sss4: {
-      bullets: [
-        `Une telle crise se caractérise par des secousses musculaires brusques et intenses d’une partie ou de l’ensemble du corps pouvant entraîner une chute, sans perte de conscience.`,
-        {
-          text: `Dans une telle situation, vous devez :`,
-          bullets: [
-            `Rester avec la personne et informer les personnes autour de ce qu’il se passe en des termes rassurants;`,
-            `Attendre calmement que la crise se termine;`,
-            `Vous assurer que l’environnement immédiat de la personne soit dégagé et qu’elle ne peut pas se blesser en éloignant les objets pointus, dangereux ou les sources de chaleur;`,
-            `Si possible et sans vous blesser lorsqu’elle chute, aider la personne à s’allonger au sol, à distance d’un escalier, d’une rambarde ou d’autre endroit qui pourrait provoquer une chute et placer un coussin ou un objet mou sous sa tête;`,
-            `Noter la durée de la crise et appeler le 911 si elle dure 5 minutes ou plus;`,
-            `Ne surtout pas tenter d’immobiliser la personne;`,
-            `Ne surtout rien mettre dans la bouche de la personne;`,
-            `Lorsque la personne cesse de faire des mouvements saccadés, la placer délicatement sur le côté pour dégager ses voies respiratoires;`,
-            `Après la crise, rester avec la personne et la rassurer, attendre qu’elle revienne à elle, l’aider à trouver un endroit où se reposer.`
-          ]
-        }
-      ]
     }
   },
   ss3: {

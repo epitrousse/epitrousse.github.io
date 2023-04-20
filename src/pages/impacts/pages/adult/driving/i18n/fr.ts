@@ -14,17 +14,17 @@ export const fr = {
     classes: {
       class5: {
         p1: `Classe 5:`,
-        p2: `Après un diagnostic d’épilepsie où les crises d’accompagnent d’une altération de la conscience, il y a un délai de 6 mois sans conduite automobile.`,
+        p2: `Après un diagnostic d’épilepsie où les crises s’accompagnent d’une altération de la conscience, il y a un délai de 6 mois sans conduite automobile.`,
         exceptions: {
           text: `Il existe des exceptions:`,
           bullets: [
-            `Crises nocturnes exclusives`,
+            `Crises nocturnes exclusives sur une période de plus d’un an (voir la Loi sur l’assurance automobile du Québec, c. A-25)`,
             `Crises focales sans altération de conscience`,
-            `Si lors d’un sevrage de médication prescrite par un médecin: 3 mois sans conduite au lieu de 6 mois`
+            `Si lors d’un sevrage de médication prescrite par un médecin: 3 mois sans conduite au lieu de 6 mois`,
+            `Première convulsion non-provoquée sans diagnostic d’épilepsie et les tests médicaux sont normaux: 3 mois sans conduite au lieu de 6 mois.`
           ]
         },
-        p3: `Il est la responsabilité du patient de déclarer son épilepsie à la SAAQ.`,
-        p4: `Première convulsion non-provoquée sans diagnostic d’épilepsie et les tests médicaux sont normaux: 3 mois sans conduite au lieu de 6 mois`
+        p3: `Il est de la responsabilité du patient de déclarer son épilepsie à la SAAQ.`
       },
       class1To4: {
         title: `Classe 1-4 (véhicules lourds):`,

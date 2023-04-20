@@ -2,7 +2,8 @@ export const fr = {
   title: `En savoir plus sur l'épilepsie`,
   category1: {
     title: `Comment fonctionne mon cerveau?`,
-    p1: `Le cerveau est un organe très complexe. Il peut être comparé à un grand circuit électrique qui envoie des signaux dans plusieurs parties du corps. Par exemple, lorsque nous touchons à un chaudron trop chaud, notre cerveau commande à notre main de se retirer immédiatement pour éviter les brûlures! Les différentes parties du cerveau sont associées à plusieurs fonctions précises du corps comme le montre le schéma ci-dessous : `
+    p1: `Le cerveau est un organe très complexe. Il peut être comparé à un grand circuit électrique qui envoie des signaux dans plusieurs parties du corps. Par exemple, lorsque nous touchons à un chaudron trop chaud, notre cerveau commande à notre main de se retirer immédiatement pour éviter les brûlures! Les différentes parties du cerveau sont associées à plusieurs fonctions précises du corps comme le montre le schéma ci-dessous : `,
+    p2: `**Les fonctions exécutives sont des capacités qui nous permettent de nous adapter à une situation. Elles incluent notamment la capacité de planifier et d’organiser, la mémoire de travail et la gestion des émotions.`
   },
   category2: {
     title: 'Que se passe-t-il lors d’une crise d’épilepsie?',

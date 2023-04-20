@@ -6,7 +6,7 @@ import Bullets from '../../components/bullets/bullets';
 import CrysisCategoriesSection from '../../components/crysis-categories-section/crysis-categories-section';
 import TitleSectionKit from '../../components/title-section-kit/title-section-kit';
 import { AppRoutes } from '../../models/enums/routes.enum';
-import imgBrain from './../../assets/img/about-epilepsy/brain.png';
+import imgBrain from './../../assets/img/about-epilepsy/brain.jpg';
 import imgWhatHappened from './../../assets/img/about-epilepsy/what-happened.jpg';
 import { fr as commonFr } from './../../common/i18n/fr';
 import './about-epilepsy.scss';
@@ -36,6 +36,7 @@ export default function AboutEpilepsy() {
             key="1">
             <p>{fr.category1.p1}</p>
             <Image src={imgBrain}></Image>
+            <p>{fr.category1.p2}</p>
           </Collapse.Panel>
 
           <Collapse.Panel
@@ -101,6 +102,7 @@ export default function AboutEpilepsy() {
             key="5">
             <p>{fr.category5.p1}</p>
             <CrysisCategoriesSection
+              fromAboutEpilepsy={true}
               focalTitle={fr.category5.ss1.title}
               focalBullets={fr.category5.ss1.bullets}
               myoclonicBullets={fr.category5.ss2.sss4.bullets}
