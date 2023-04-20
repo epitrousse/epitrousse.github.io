@@ -22,6 +22,7 @@ export const fr = {
     p1: `Activité moins recommandée: `,
     bullets: [
       `Escalade`,
+      `Ski alpin`,
       `Plongée sous-marine`,
       `Nage seule`,
       `Parachutisme`,

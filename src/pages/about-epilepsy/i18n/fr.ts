@@ -38,7 +38,7 @@ export const fr = {
         `Le fait de prendre d’autres médicaments qui pourraient interférer avec les anticonvulsivants (comme des antibiotiques, ou des produits naturels);`,
         `Le fait de sauter des repas;`,
         `Le fait de ne pas faire suffisamment d’exercice;`,
-        `Les lumières vives et clignotantes : jeux vidéo, lumières stroboscopiques, reflets du soleil dans l’eau…`
+        `Pour certaines formes d’épilepsie généralisés: Les lumières vives et clignotantes : jeux vidéo, lumières stroboscopiques, reflets du soleil dans l’eau…`
       ]
     }
   },
@@ -63,7 +63,8 @@ export const fr = {
         `De courte durée (1 à 2 minutes);`,
         `Il n’y a généralement pas de perte de conscience, sauf si elle se transforme en crise généralisée. La personne peut avoir de la difficulté à vous répondre lorsque vous lui parlez;`,
         `Apparition de sensations inhabituelles (problèmes de vision ou d’audition, picotements, odeurs étranges, etc.);`,
-        `Il peut y avoir des mouvements involontaires des muscles ou non;`,
+        `Souvent associées ou suivies d’une fixité du regard;`,
+        `Il peut y avoir des mouvements involontaires ou des mouvements automatiques des bras ou des jambes;`,
         `Présentation variable selon la région du cerveau impliquée.`
       ]
     },
@@ -84,7 +85,14 @@ export const fr = {
               `Accompagnée de très peu de mouvements des muscles;`
             ]
           },
-          `ATTENTION : Elles sont souvent confondues à tort avec un trouble de l’inattention (TDA).`
+          `ATTENTION : Elles sont souvent confondues à tort avec un trouble de l’inattention (TDA).`,
+          {
+            text: `L’absence se distingue de la crise focale avec altération de la conscience :`,
+            bullets: [
+              `Une crise focale avec altération de la conscience est une crise qui démarre dans une partie spécifique du cerveau puis qui s’étend pour atteindre l’entièreté du cerveau, ce qui cause une perte de conscience. Dans les premiers moments de ce type de crise, la personne peut avoir une aura (une sensation étrange comme une impression de déjà-vu, des picotements, un trouble de vision ou d’audition...).`,
+              `Pour sa part, une absence est une crise généralisée d’emblée, c’est-à-dire que le cerveau entier est atteint dès le début. Il n’y a pas d’aura dans ce type de crise et la personne perd conscience dès le début de la crise.`
+            ]
+          }
         ]
       },
       sss2: {

@@ -10,8 +10,8 @@ export const fr = {
       answer: `Non, il est physiquement impossible d’avaler sa langue. Ne surtout pas mettre d’objets ou vos doigts dans la bouche de la personne.`
     },
     fact3: {
-      question: `L’épilepsie est-elle contagieuse ?`,
-      answer: `Non, car l’épilepsie n’est pas une maladie infectieuse, c’est plutôt une condition qui touche le cerveau et qui ne se transmet pas de personne en personne.`
+      question: `L’épilepsie est-elle contagieuse? Une maladie dégénérative?`,
+      answer: `L’épilepsie n’est pas une maladie contagieuse, c’est plutôt une condition qui touche le cerveau et qui ne se transmet pas de personne en personne. Ce n'est pas une maladie dégénérative, le degré d’atteinte reste assez constant si la maladie est bien contrôlée. En l’absence d’un bon contrôle, les crises peuvent endommager le cerveau à long-terme.`
     },
     fact4: {
       question: `L’épilepsie est-elle mortelle?`,

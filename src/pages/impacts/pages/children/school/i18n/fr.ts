@@ -1,6 +1,6 @@
 export const fr = {
   title: `École`,
-  p1: `En tant que parent, il est important d’aviser l’école que votre enfant est atteint de l’épilepsie. De plus, l’école devrait mettre en place un plan d’intervention individualisé pour votre enfant. Ce plan inclus divers renseignements tels que l’information sur le type d’épilepsie dont l’élève est atteint, le nom du médecin de l’enfant, sa liste de médicaments et les gestes à poser en cas de crises d’épilepsie.`,
+  p1: `En tant que parent, il est important d’aviser l’école que votre enfant est atteint de l’épilepsie. De plus, l’école devrait mettre en place un plan d’intervention individualisé pour votre enfant. Ce plan inclut divers renseignements tels que l’information sur le type d’épilepsie dont l’élève est atteint, le nom du médecin de l’enfant, sa liste de médicaments et les gestes à poser en cas de crises d’épilepsie.`,
   tellToSchool: {
     p1: `Quoi dire à l’enseignant pour aider mon enfant à l’école ?`,
     bullets: [
@@ -24,5 +24,5 @@ export const fr = {
       `Soutien pédagogique adapté (ex.: tutorat)`
     ]
   },
-  p2: `Une question à laquelle votre enfant peut être confronté dans la cour de récréation est celle de savoir si les enfants atteints d’épilepsie sont moins intelligents ? La réponse à cette question est non. Les enfants qui ont l’épilepsie sont en moyenne aussi intelligents que les autres enfants. Certains enfants ayant l’épilepsie peuvent toutefois présenter des difficultés d’apprentissage en raison de la récurrence des crises ou à causes des effets indésirables des médicaments (ex.: somnolence, fatigue).`
+  p2: `Une question à laquelle votre enfant peut être confronté dans la cour de récréation est celle de savoir si les enfants atteints d’épilepsie sont moins intelligents ? La réponse à cette question est non. Les enfants qui ont l’épilepsie sont en moyenne aussi intelligents que les autres enfants. Certains enfants ayant l’épilepsie peuvent toutefois présenter des difficultés d’apprentissage en raison de la récurrence des crises ou à cause des effets indésirables des médicaments (ex.: somnolence, fatigue).`
 };

@@ -33,6 +33,7 @@ export default function Work() {
         <Bullets bullets={fr.notRecommendedJob.bullets} />
         <p>{fr.generalTips.title}</p>
         <Bullets bullets={fr.generalTips.bullets} />
+        <p>{fr.discrimination}</p>
         <p>{fr.p3}</p>
         <p>{fr.p4}</p>
         <p>{fr.p5}</p>

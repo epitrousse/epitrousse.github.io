@@ -1,6 +1,6 @@
 export const fr = {
   title: `Outils divers`,
-  description: `Voici une liste exhaustive d'outils complémentaires qui pourrait vous permettre de vous aider ou aider quelqu'un atteint d'épliepsie :`,
+  description: `Voici une liste exhaustive d'outils complémentaires qui pourrait vous permettre de vous aider ou aider quelqu'un atteint d'épilepsie :`,
   tools: {
     tool1: `Préparation aux rendez-vous médicaux`,
     tool2: `Journal des crises`,

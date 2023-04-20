@@ -31,6 +31,7 @@ export const fr = {
       `En cas de discrimination, s’informer à la Commission des droits de la personne pour connaître vos droits`
     ]
   },
+  discrimination: `Discrimination au travail`,
   p3: `Malheureusement, les personnes atteintes d’épilepsie peuvent vivre de la discrimination au travail en lien avec leur trouble et voir leurs compétences sous-utilisées. Il est donc pertinent de connaître ses droits en matière d’emploi.`,
   p4: `Nous vous rappelons que la Charte canadienne des droits et libertés interdit à un employeur de faire de la discrimination en raison de l’épilepsie. Si une personne pense être victime de discrimination, elle a le droit de faire une plainte à la Commission des droits de la personne.`,
   p5: `Néanmoins, il existe des situations où l’employeur peut refuser d’engager ou peut décider de licencier une personne dont la déficience peut compromettre la santé et/ou la sécurité de la personne en question, du public ou de ses collègues. C’est au devoir de l’employeur de démontrer comment la déficience de son employé représente un danger pour sa sécurité et/ou celle d’autrui.`,
