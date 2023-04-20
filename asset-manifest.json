@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.264126a1.css",
-    "main.js": "/static/js/main.27975157.js",
+    "main.js": "/static/js/main.476a2724.js",
     "static/media/crysis-diary.pdf": "/static/media/crysis-diary.03942c073284de8db7a0.pdf",
     "static/media/myoclonic-crysis.png": "/static/media/myoclonic-crysis.b3dcc9b3b5af21850e42.png",
     "static/media/absence.png": "/static/media/absence.e9d9d19415ab39d98824.png",
@@ -45,10 +45,10 @@
     "static/media/driving.png": "/static/media/driving.de970ca2b5055e8763ea.png",
     "index.html": "/index.html",
     "main.264126a1.css.map": "/static/css/main.264126a1.css.map",
-    "main.27975157.js.map": "/static/js/main.27975157.js.map"
+    "main.476a2724.js.map": "/static/js/main.476a2724.js.map"
   },
   "entrypoints": [
     "static/css/main.264126a1.css",
-    "static/js/main.27975157.js"
+    "static/js/main.476a2724.js"
   ]
 }
