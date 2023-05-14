@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.264126a1.css",
-    "main.js": "/static/js/main.476a2724.js",
-    "static/media/crysis-diary.pdf": "/static/media/crysis-diary.03942c073284de8db7a0.pdf",
+    "main.css": "/static/css/main.9e9fa219.css",
+    "main.js": "/static/js/main.90034e31.js",
+    "static/media/side-effects.pdf": "/static/media/side-effects.a948cc45f94bdacc443b.pdf",
+    "static/media/crysis-diary.pdf": "/static/media/crysis-diary.367ff3433fe673e4852e.pdf",
     "static/media/myoclonic-crysis.png": "/static/media/myoclonic-crysis.b3dcc9b3b5af21850e42.png",
     "static/media/absence.png": "/static/media/absence.e9d9d19415ab39d98824.png",
     "static/media/tonico-clonic-crysis.png": "/static/media/tonico-clonic-crysis.7924d8792fe65a2888e3.png",
@@ -11,24 +12,23 @@
     "static/media/what-happened.jpg": "/static/media/what-happened.18796a4be489685e8784.jpg",
     "static/media/generalized-crysis.png": "/static/media/generalized-crysis.ce38592f648cc7c98a46.png",
     "static/media/focal-crysis.png": "/static/media/focal-crysis.4da004a19d5660466f71.png",
-    "static/media/side-effects.pdf": "/static/media/side-effects.53b6c5a8570951f737ca.pdf",
     "static/media/brain.jpg": "/static/media/brain.d396dbca920174462411.jpg",
     "static/media/rdv-preparation.pdf": "/static/media/rdv-preparation.62938189e0fe6629d3c7.pdf",
     "static/media/triggers.png": "/static/media/triggers.a2d8676b3bf1037e594a.png",
+    "static/media/home-2.jpg": "/static/media/home-2.5556e85e5de6c0af8608.jpg",
     "static/media/topic-6.png": "/static/media/topic-6.0967ab03c073d9a4bfe2.png",
     "static/media/psychosocial.png": "/static/media/psychosocial.c2a5030eff1ce4de6692.png",
-    "static/media/home-3.jpg": "/static/media/home-3.0cf3780fcda7395daca6.jpg",
     "static/media/alcool.png": "/static/media/alcool.295fa4ab0b140b568bfb.png",
     "static/media/entertaining.png": "/static/media/entertaining.2e2c497500886ec3fc52.png",
     "static/media/work.png": "/static/media/work.dede34b7ee066e0e011d.png",
-    "static/media/home-1.jpg": "/static/media/home-1.11c66e987fab230039c1.jpg",
     "static/media/pregnancy.png": "/static/media/pregnancy.0565e1d167562534098c.png",
+    "static/media/home-1.jpg": "/static/media/home-1.4cf3501bb8d5cfbee10a.jpg",
     "static/media/topic-3.jpg": "/static/media/topic-3.8b6d4b19246387ea4e9c.jpg",
     "static/media/school.png": "/static/media/school.3733efcd0bee16214ae4.png",
     "static/media/parenthood.png": "/static/media/parenthood.ccffb78c7daa4e783d7d.png",
     "static/media/life-insurance.png": "/static/media/life-insurance.84ac5d39d8a5ef68f021.png",
+    "static/media/home-3.jpg": "/static/media/home-3.46a7ac1b776b56e4ed16.jpg",
     "static/media/topic-4.jpg": "/static/media/topic-4.c26bf3f08bf902b2567e.jpg",
-    "static/media/home-2.jpg": "/static/media/home-2.2d28dcec1c6e1e9727a8.jpg",
     "static/media/topic-2.jpg": "/static/media/topic-2.e604d3a1d4cfd4a058f0.jpg",
     "static/media/topic-5.jpg": "/static/media/topic-5.f4c6fd273e88bf0ba16e.jpg",
     "static/media/sexuality.png": "/static/media/sexuality.2a22fc1957b0953abacb.png",
@@ -43,12 +43,13 @@
     "static/media/estrie-association.png": "/static/media/estrie-association.9eaaef816eb2c4890dee.png",
     "static/media/surgery-treatments.jpg": "/static/media/surgery-treatments.71870cb550ed82e2f488.jpg",
     "static/media/driving.png": "/static/media/driving.de970ca2b5055e8763ea.png",
+    "static/media/lavender.jpg": "/static/media/lavender.ccb63b95864f3cb4967d.jpg",
     "index.html": "/index.html",
-    "main.264126a1.css.map": "/static/css/main.264126a1.css.map",
-    "main.476a2724.js.map": "/static/js/main.476a2724.js.map"
+    "main.9e9fa219.css.map": "/static/css/main.9e9fa219.css.map",
+    "main.90034e31.js.map": "/static/js/main.90034e31.js.map"
   },
   "entrypoints": [
-    "static/css/main.264126a1.css",
-    "static/js/main.476a2724.js"
+    "static/css/main.9e9fa219.css",
+    "static/js/main.90034e31.js"
   ]
 }
