@@ -42,7 +42,12 @@ export const fr = {
       `Utiliser une dosette pour éviter d’oublier de prendre vos médicaments.`,
       `Créer une alarme quotidienne pour ne pas oublier de prendre sa médication.`,
       `Si vous oubliez de prendre une dose de médicament, la marche à suivre dépend du temps restant avant qu’il soit l’heure de prendre la prochaine dose. Jusqu’à environ 4h après le moment où vous deviez prendre la dose omise, vous pouvez la prendre dès que vous constatez votre oubli. Passé ce délai, ne la prenez pas et continuez de prendre votre médication comme à l’habitude en partant de la prochaine dose. Ne prenez pas de double dose pour compenser votre oubli. Si vous avez un doute concernant la possibilité ou non de prendre la dose oubliée, consultez un pharmacien ou un médecin.`
-    ]
+    ],
+    p1: {
+      textBefore: `Afin de mieux contrôler les crises, il est recommandé d’utiliser le `,
+      link: `journal des crises`,
+      textAfter: `.`
+    }
   },
   s4: {
     title: `Tous les patients répondent-ils aux anti-convulsivants ?`,

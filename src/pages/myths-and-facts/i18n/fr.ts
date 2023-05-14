@@ -33,12 +33,10 @@ export const fr = {
     fact8: {
       question: `L’épilepsie est-elle dangereuse ?`,
       answer: {
-        text: `L’épilepsie cause rarement le décès. Toutefois, on observe un taux de mortalité 2 à 3 fois plus élevé chez les personnes atteintes d’épilepsie comparativement au reste de la population. Chez les personnes atteintes d’épilepsie, on observe une cause de décès spécifique appelée la mort subite inattendue et inexpliquée en épilepsie. Celle-ci se produit quand la personne épileptique meurt subitement sans cause apparente. Même s’il est important que la personne atteinte d’épilepsie et son entourage soient mis au courant de cette cause de décès, il faut rappeler que le risque est faible. Réduire le risque de décès:`,
-        bullets: [
-          `Prise régulière des médicaments;`,
-          `Éviter de consommer de l’alcool ou des drogues de manière abusive;`,
-          `Suivre les recommandations adaptées à votre situation et spécifiques de votre médecin.`
-        ]
+        p1Before: `L’épilepsie cause rarement le décès. Toutefois, on observe un taux de mortalité 2 à 3 fois plus élevé chez les personnes atteintes d’épilepsie comparativement au reste de la population. Chez les personnes atteintes d’épilepsie, on observe une cause de décès spécifique appelée la mort subite inattendue et inexpliquée en épilepsie. Celle-ci se produit quand la personne épileptique meurt subitement sans cause apparente. Même s’il est important que la personne atteinte d’épilepsie et son entourage soient mis au courant de cette cause de décès, il faut rappeler que le risque est faible. Pour plus de détails, consulter la page `,
+        link: `Assurance vie`,
+        p1After: `.`,
+        p2: `Pour réduire le risque de décès, il est conseillé de prendre régulièrement des médicaments, d'éviter de consommer de l’alcool ou des drogues de manière abusive et de suivre les recommandations adaptées à votre situation et spécifiques de votre médecin.`
       }
     }
   }

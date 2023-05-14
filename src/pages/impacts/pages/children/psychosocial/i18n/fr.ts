@@ -2,7 +2,7 @@ export const fr = {
   title: `Psychosocial`,
   p1: `L’épilepsie peut avoir un impact psychosocial sur l’enfant. En effet, un enfant qui vit avec l’épilepsie peut ressentir du stress, avoir une faible estime de soi et/ou vivre de la colère. En effet, l’imprévisibilité des crises peuvent susciter beaucoup de stress chez l’enfant. La réaction de l’entourage peut également avoir un impact sur le stress vécu par l’enfant. Un entourage qui réagit de façon calme, rassurante et réconfortante plutôt que de manière agitée, aidera l’enfant à s’adapter à ce qu’il vit. D’ailleurs, un parent qui aide son enfant à voir l’épilepsie de façon positive et qui parle ouvertement de l’épilepsie avec son enfant, évitera de créer un tabou entourant la maladie.`,
   promoteWellBeing: {
-    question: `Comment promouvoir le bien-être de votre enfant? Garder un rythme de vie NORMALE!`,
+    question: `Comment promouvoir le bien-être de votre enfant? Garder un rythme de vie NORMAL!`,
     bullets: [
       `Encourager son enfant à avoir une vie sociale active`,
       `Encourager son enfant à participer à des loisirs et des activités sportives`,

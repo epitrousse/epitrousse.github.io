@@ -5,7 +5,7 @@ export enum AppRoutes {
   Kit = '/trousse',
   Treatments = '/traitements',
   DrugsTreatments = '/traitements/medicamenteux',
-  AlternativeTreatments = '/traitements/alternatifs',
+  AlternativeTreatments = '/traitements/autres',
   SurgeryTreatments = '/traitements/chirurgicaux',
   AboutEpilepsy = '/a-propos-epilepsie',
   MythsAndFacts = '/mythes-et-realites',

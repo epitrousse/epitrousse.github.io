@@ -1,6 +1,7 @@
 import { Breadcrumb, Collapse, Typography } from 'antd';
 import { Link } from 'react-router-dom';
 import drugsTreatmentImg from '../../../../assets/img/treatments/drugs.png';
+import crysisDiaryPdf from '../../../../assets/pdf/crysis-diary.pdf';
 import sideEffectsPdf from '../../../../assets/pdf/side-effects.pdf';
 import { fr as commonFr } from '../../../../common/i18n/fr';
 import Bullets from '../../../../components/bullets/bullets';
@@ -55,6 +56,16 @@ export default function DrugsTreatment() {
             }
             key="2">
             <Bullets bullets={fr.s3.bullets} />
+            <p>
+              {fr.s3.p1.textBefore}
+              <a
+                href={crysisDiaryPdf}
+                rel="noopener noreferrer"
+                target="_blank">
+                {fr.s3.p1.link}
+              </a>
+              {fr.s3.p1.textAfter}
+            </p>
           </Collapse.Panel>
 
           <Collapse.Panel

@@ -1,28 +1,22 @@
-import { Breadcrumb, Card, Col, Row, Typography } from 'antd';
-import Meta from 'antd/es/card/Meta';
-import { Link, useNavigate } from 'react-router-dom';
+import { Breadcrumb, Col, Row, Typography } from 'antd';
+import { Link } from 'react-router-dom';
 import childrenImg from '../../../../assets/img/impacts/child.png';
 import psychosocialImg from '../../../../assets/img/impacts/children/psychosocial.png';
 import schoolImg from '../../../../assets/img/impacts/children/school.png';
 import entertainingImg from '../../../../assets/img/impacts/common/entertaining.png';
 import { fr as commonFr } from '../../../../common/i18n/fr';
+import CardWrapper from '../../../../components/card-wrapper/card-wrapper';
 import TitleSectionKit from '../../../../components/title-section-kit/title-section-kit';
 import { AppRoutes } from '../../../../models/enums/routes.enum';
-import './children-impacts.scss';
 import { fr } from './i18n/fr';
 
 export default function ChildrenImpacts() {
-  const navigate = useNavigate();
-
   const displayCard = (img, title, route) => (
     <Col xs={12} md={6} className="flex-center">
-      <Card
-        className="impact-card"
-        hoverable
-        cover={<img src={img} />}
-        onClick={() => navigate(route)}>
-        <Meta title={title} />
-      </Card>
+      <CardWrapper
+        img={img}
+        routeToNavigate={route}
+        title={title}></CardWrapper>
     </Col>
   );
 

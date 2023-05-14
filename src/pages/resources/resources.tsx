@@ -21,7 +21,13 @@ export default function Resources() {
     {
       key: '2',
       label: <Typography.Text>{fr.imagesTab.title}</Typography.Text>,
-      children: <div>Images</div>
+      children: (
+        <ul>
+          {fr.imagesTab.bibliography.map((b) => (
+            <li key={b} dangerouslySetInnerHTML={{ __html: b }}></li>
+          ))}
+        </ul>
+      )
     }
   ];
 

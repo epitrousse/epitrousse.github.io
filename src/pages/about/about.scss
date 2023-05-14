@@ -1,32 +1,25 @@
 .about {
-  .about-us-section {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .padding {
-    padding: 0px 20px 0px 30px;
-  }
-
   .group-img {
     border-radius: 8px;
   }
 
   .our-team-title {
-    margin: 0 0 20px 0;
+    margin-bottom: 20px;
   }
 
-  .our-mission-title {
-    margin-top: 20px;
+  .margin-top-section {
+    margin-top: 30px;
   }
 
-  @media only screen and (max-width: 992px) {
-    .our-mission-title {
-      margin-top: 10px;
-    }
+  .lavender-img {
+    width: 220px;
+    float: right;
+    padding-left: 20px;
+  }
 
-    .padding {
-      padding: 0px;
+  @media only screen and (max-width: 576px) {
+    .lavender-img {
+      width: 150px;
     }
   }
 }

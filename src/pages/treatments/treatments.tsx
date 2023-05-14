@@ -1,28 +1,22 @@
-import { Breadcrumb, Card, Col, Row } from 'antd';
-import Meta from 'antd/es/card/Meta';
-import { Link, useNavigate } from 'react-router-dom';
+import { Breadcrumb, Col, Row } from 'antd';
+import { Link } from 'react-router-dom';
 import topic3 from '../../assets/img/kit/topic-3.jpg';
 import alternativeImg from '../../assets/img/treatments/alternative-treatments.jpg';
 import drugsImg from '../../assets/img/treatments/drugs.png';
 import surgeryImg from '../../assets/img/treatments/surgery-treatments.jpg';
+import CardWrapper from '../../components/card-wrapper/card-wrapper';
 import TitleSectionKit from '../../components/title-section-kit/title-section-kit';
 import { AppRoutes } from '../../models/enums/routes.enum';
 import { fr as commonFr } from './../../common/i18n/fr';
 import { fr } from './i18n/fr';
-import './treatments.scss';
 
 export default function Treatments() {
-  const navigateTo = useNavigate();
-
   const displayCard = (img, title, route) => (
     <Col xs={12} md={6} className="flex-center">
-      <Card
-        className="treatment-card"
-        hoverable
-        cover={<img src={img} />}
-        onClick={() => navigateTo(route)}>
-        <Meta title={title} />
-      </Card>
+      <CardWrapper
+        img={img}
+        routeToNavigate={route}
+        title={title}></CardWrapper>
     </Col>
   );
 

@@ -2,6 +2,7 @@ import { Breadcrumb, Collapse, Image, Typography } from 'antd';
 import { Link } from 'react-router-dom';
 import triggerImg from '../../assets/img/about-epilepsy/triggers.png';
 import topic1 from '../../assets/img/kit/topic-1.jpg';
+import crysisDiaryPdf from '../../assets/pdf/crysis-diary.pdf';
 import Bullets from '../../components/bullets/bullets';
 import CrysisCategoriesSection from '../../components/crysis-categories-section/crysis-categories-section';
 import TitleSectionKit from '../../components/title-section-kit/title-section-kit';
@@ -78,6 +79,16 @@ export default function AboutEpilepsy() {
                 </div>
               </div>
               <Bullets bullets={fr.category3.triggers.bullets} />
+              <p>
+                {fr.category3.triggers.p3.textBefore}
+                <a
+                  href={crysisDiaryPdf}
+                  rel="noopener noreferrer"
+                  target="_blank">
+                  {fr.category3.triggers.p3.link}
+                </a>
+                {fr.category3.triggers.p3.textAfter}
+              </p>
             </div>
           </Collapse.Panel>
 
@@ -89,8 +100,9 @@ export default function AboutEpilepsy() {
             }
             key="4">
             <p>{fr.category4.p1}</p>
-            <Bullets bullets={fr.category4.bullets} />
             <p>{fr.category4.p2}</p>
+            <p>{fr.category4.p3}</p>
+            <Bullets bullets={fr.category4.bullets} />
           </Collapse.Panel>
 
           <Collapse.Panel
@@ -101,16 +113,28 @@ export default function AboutEpilepsy() {
             }
             key="5">
             <p>{fr.category5.p1}</p>
+            <Bullets bullets={fr.category5.bullets} />
+            <p>{fr.category5.p2}</p>
+          </Collapse.Panel>
+
+          <Collapse.Panel
+            header={
+              <Typography.Title level={2}>
+                {fr.category6.title}
+              </Typography.Title>
+            }
+            key="6">
+            <p>{fr.category6.p1}</p>
             <CrysisCategoriesSection
               fromAboutEpilepsy={true}
-              focalTitle={fr.category5.ss1.title}
-              focalBullets={fr.category5.ss1.bullets}
-              myoclonicBullets={fr.category5.ss2.sss4.bullets}
-              tonicoClonicBullets={fr.category5.ss2.sss2.bullets}
-              absenceBullets={fr.category5.ss2.sss1.bullets}
-              atonicBullets={fr.category5.ss2.sss3.bullets}
-              generalizedCrysisTitle={fr.category5.ss2.title}
-              generalizedCrysisText={fr.category5.ss2.p1}
+              focalTitle={fr.category6.ss1.title}
+              focalBullets={fr.category6.ss1.bullets}
+              myoclonicBullets={fr.category6.ss2.sss4.bullets}
+              tonicoClonicBullets={fr.category6.ss2.sss2.bullets}
+              absenceBullets={fr.category6.ss2.sss1.bullets}
+              atonicBullets={fr.category6.ss2.sss3.bullets}
+              generalizedCrysisTitle={fr.category6.ss2.title}
+              generalizedCrysisText={fr.category6.ss2.p1}
             />
           </Collapse.Panel>
         </Collapse>

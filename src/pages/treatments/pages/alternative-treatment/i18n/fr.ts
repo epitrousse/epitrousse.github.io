@@ -1,7 +1,7 @@
 export const fr = {
-  shortTitle: `Alternatifs`,
-  title: `Les traitements alternatifs`,
-  p1: `En dehors des médicaments et des chirurgies, d’autres options s’offrent aux patients souffrant d’épilepsie. Cependant, la prudence est de mise, car l’efficacité de la plupart de ces traitement alternatifs ou complémentaires n’a pas été prouvée scientifiquement et peu de données sont accessibles concernant leurs bienfaits et leurs risques.`,
+  shortTitle: `Autres`,
+  title: `Autres traitements`,
+  p1: `En dehors des médicaments et des chirurgies, d’autres options s’offrent aux patients souffrant d’épilepsie. Cependant, la prudence est de mise, car l’efficacité de certaines de ces options n’a pas été prouvée scientifiquement et peu de données sont accessibles concernant leurs bienfaits et leurs risques.`,
   types: [
     {
       title: `Les techniques de relaxation`,
@@ -9,7 +9,7 @@ export const fr = {
     },
     {
       title: `Les régimes spéciaux`,
-      p1: `Les régimes cétogènes et Atkins (une version plus flexible du régime cétogène): ces régimes consistent à manger beaucoup de gras et très peu de sucres ou de protéines. L'apport en gras est environ 4 fois plus élevé que dans une alimentation habituelle. Ainsi, le corps produit son énergie en brûlant les gras et non les glucides. Ce régime est parfois proposé aux enfants épileptiques de moins de 12 ans pour qui le traitement médicamenteux ne permet pas un contrôle efficace des crises. Il est aussi possible de l’essayer chez les adultes en dernier recours. La diète est prescrite pour une durée de 2 à 3 ans, avec l’encadrement d’un nutritionniste. Bien qu’elle puisse améliorer le contrôle des crises, la diète cétogène est difficile à suivre et elle peut entraîner des carences alimentaires comme des déficiences en vitamines. De plus, pour que cette diète soit efficace, elle doit être suivie à la lettre et cela demande beaucoup d’investissement de la part du parent et de l’enfant.`
+      p1: `Les régimes cétogènes et Atkins (une version plus flexible du régime cétogène): ces régimes consistent à manger beaucoup de gras et très peu de sucres ou de protéines. L'apport en gras est environ 4 fois plus élevé que dans une alimentation habituelle. Ainsi, le corps produit son énergie en brûlant les gras et non les glucides. Ce régime est parfois proposé aux enfants épileptiques de moins de 12 ans pour qui le traitement médicamenteux ne permet pas un contrôle efficace des crises. Il est aussi possible de l’essayer chez les adultes en dernier recours. La diète est prescrite pour une durée de 2 à 3 ans, avec l’encadrement d’un nutritionniste. Bien qu’elle puisse améliorer le contrôle des crises, la diète cétogène est difficile à suivre et elle peut entraîner des carences alimentaires comme des déficiences en vitamines. De plus, pour que cette diète soit efficace, elle doit être suivie à la lettre et cela demande beaucoup d’investissement de la part du parent et de l’enfant. Notez que dans certains cas d’épilepsie chez l’enfant, la littérature scientifique supporte le régime cétogène comme traitement de première ligne.`
     },
     {
       title: `Le cannabidiol (CBD)`,

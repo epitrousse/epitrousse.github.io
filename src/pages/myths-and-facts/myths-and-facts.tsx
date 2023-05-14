@@ -1,7 +1,6 @@
 import { Breadcrumb, Col, Row } from 'antd';
 import { Link } from 'react-router-dom';
 import topic5 from '../../assets/img/kit/topic-5.jpg';
-import Bullets from '../../components/bullets/bullets';
 import FlippableCard from '../../components/flippable-card/flippable-card';
 import TitleSectionKit from '../../components/title-section-kit/title-section-kit';
 import { AppRoutes } from '../../models/enums/routes.enum';
@@ -20,8 +19,14 @@ export default function MythsAndFacts() {
 
   const fact8Answer = (
     <>
-      <p>{fr.facts.fact8.answer.text}</p>
-      <Bullets bullets={fr.facts.fact8.answer.bullets} />
+      <p>
+        {fr.facts.fact8.answer.p1Before}
+        <Link to={AppRoutes.LifeInsuranceImpacts}>
+          {fr.facts.fact8.answer.link}
+        </Link>
+        {fr.facts.fact8.answer.p1After}
+      </p>
+      <p style={{ marginTop: 0 }}>{fr.facts.fact8.answer.p2}</p>
     </>
   );
 

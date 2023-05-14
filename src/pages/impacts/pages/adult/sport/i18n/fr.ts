@@ -13,8 +13,7 @@ export const fr = {
       `Basketball`,
       `Volleyball`,
       `Marche`,
-      `Course à pied`,
-      `Natation/Nage libre en groupe`
+      `Course à pied`
     ],
     p2: `Malgré que ces activités soient sécuritaires, ceux-ci le sont davantage avec une surveillance à proximité. De plus, en prenant des mesures préventives comme le port du casque, équipement de sécurité, ou même gilet de sauvetage en cas de nage, est fortement recommandé.`
   },
@@ -24,7 +23,7 @@ export const fr = {
       `Escalade`,
       `Ski alpin`,
       `Plongée sous-marine`,
-      `Nage seule`,
+      `Natation`,
       `Parachutisme`,
       {
         text: `Sport de contact: `,

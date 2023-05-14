@@ -39,10 +39,29 @@ export const fr = {
         `Le fait de sauter des repas;`,
         `Le fait de ne pas faire suffisamment d’exercice;`,
         `Pour certaines formes d’épilepsie généralisés: Les lumières vives et clignotantes : jeux vidéo, lumières stroboscopiques, reflets du soleil dans l’eau…`
-      ]
+      ],
+      p3: {
+        textBefore: `Afin de mieux contrôler les crises, il est recommandé d’utiliser le `,
+        link: `journal des crises`,
+        textAfter: `.`
+      }
     }
   },
   category4: {
+    title: `Personnalités célèbres atteintes d’épilepsie`,
+    p1: `Lorsque l’épilepsie est traitée adéquatement, il est tout à fait possible de vivre, d’étudier et de travailler normalement. En effet, l’épilepsie n’est pas associée à une baisse des capacités intellectuelles. Les personnes atteintes d’épilepsie pourront entreprendre des carrières similaires à celles qui n’ont pas de diagnostic d’épilepsie.`,
+    p2: `D’ailleurs, de nombreuses personnalités connues sont ou étaient atteintes d’épilepsie, ce qui ne les a pas empêchés de laisser leur marque dans le monde, d’exceller dans leurs domaines respectifs et inspirer les générations suivantes.`,
+    p3: `Parmi les personnalités célèbres atteintes d’épilepsie, on peut citer:`,
+    bullets: [
+      `Molière: Grand dramaturge français du XVIIe`,
+      `Franklin D. Roosevelt: 32e président des États-Unis`,
+      `Alfred Nobel: Inventeur des Prix Nobel`,
+      `Lil Nas: Rappeur américain et chanteur-compositeur`,
+      `Agatha Christie: Romancière britannique connue pour ces romans policiers`,
+      `Edgar Allan Poe: Écrivain américain`
+    ]
+  },
+  category5: {
     title: `Comment diagnostique-t-on l’épilepsie?`,
     p1: `Une personne atteinte de l’épilepsie présente au moins un des critères suivants :`,
     bullets: [
@@ -52,7 +71,7 @@ export const fr = {
     ],
     p2: `Comme aucun test ne permet de l’établir systématiquement avec certitude, le diagnostic d’épilepsie peut parfois être difficile à poser. Pour ce faire, les médecins se basent souvent avant tout sur l’histoire et la description des symptômes survenant durant les crises ainsi que sur un examen clinique du patient. Certains examens supplémentaires sont souvent prescrits. Parmi eux, on retrouve fréquemment l’EEG (ou électroencéphalogramme) qui permet d’enregistrer l’activité du cerveau, l’IRM (un type d’imagerie médicale qui permet de bien voir le cerveau), ou encore des prises de sang ou des analyses d'urine. Ces tests permettent de confirmer ou de renforcer la suspicion de diagnostic d’épilepsie et d’éliminer d’autres conditions qui pourraient lui ressembler. Dans certains cas où le diagnostic reste incertain, le médecin peut également proposer au patient une hospitalisation de quelques jours durant laquelle il sera monitoré par EEG et surveillance vidéo. Durant ce séjour à l'hôpital, on tente d’enregistrer simultanément les symptômes du patients et l’activité électrique dans son cerveau pendant une crise. La combinaison de ces informations permet aux neurologues de différencier une crise épileptique d’une crise non épileptique, et les aide à déterminer la région du cerveau impliquée dans l'initiation des crises pour déterminer le meilleur traitement pour le patient.`
   },
-  category5: {
+  category6: {
     title: `Est-ce qu’il existe différents types d’épilepsie?`,
     p1: `Oui! Les symptômes ressentis lors de la crise diffèrent selon la région du cerveau affectée. Les symptômes changent donc d’une personne à l’autre. On classe l’épilepsie en deux catégories (crises focales et crises généralisées). Pour en savoir plus, cliquez sur la catégorie qui vous intéresse : `,
     ss1: {

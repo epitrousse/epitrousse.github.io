@@ -14,6 +14,7 @@
     cursor: pointer;
     text-align: center;
     border-radius: 8px;
+    font-weight: 450;
   }
 
   .background-img {
@@ -42,7 +43,7 @@
 
   .background-layer {
     height: 100%;
-    background-color: rgba(255, 122, 69, 0.75);
+    background-color: rgba(211, 173, 247, 0.75);
     width: 100%;
   }
 
@@ -72,7 +73,7 @@
 
   .topic-title {
     width: 80%;
-    color: white;
+    color: black;
     font-size: 28px;
     font-weight: 400;
   }

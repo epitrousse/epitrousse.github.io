@@ -1,0 +1,45 @@
+.card-wrapper {
+  width: 100%;
+  .ant-card-body {
+    padding: 20px;
+  }
+
+  .ant-card-cover {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 1px 1px 1px;
+    img {
+      object-fit: contain;
+      height: 200px !important;
+    }
+  }
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+
+  .title {
+    padding-right: 10px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .card-wrapper {
+    .card-bottom {
+      .title {
+        font-size: 14px;
+      }
+    }
+
+    .ant-card-cover {
+      img {
+        height: 100px !important;
+      }
+    }
+  }
+}
